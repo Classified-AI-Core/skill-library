@@ -1,0 +1,62 @@
+{
+  "title": "Example Pitch Deck",
+  "theme": "dark",
+  "layoutStrategy": "story",
+  "transitionDuration": 1500,
+  "slides": [
+    {
+      "id": "title",
+      "type": "title",
+      "heading": "The Future of X",
+      "subheading": "A new approach to solving the old problem"
+    },
+    {
+      "id": "problem",
+      "type": "content",
+      "heading": "The Problem",
+      "body": "Every year, companies waste billions on inefficient processes.",
+      "bullets": [
+        "Manual workflows consume 40% of team capacity",
+        "Data silos prevent cross-functional collaboration",
+        "Legacy tools can't keep up with modern demands"
+      ]
+    },
+    {
+      "id": "metrics",
+      "type": "metrics",
+      "heading": "By The Numbers",
+      "metrics": [
+        { "value": "$4.2B", "label": "Market Size" },
+        { "value": "10x", "label": "Faster" },
+        { "value": "94%", "label": "Retention" }
+      ]
+    },
+    {
+      "id": "solution",
+      "type": "content",
+      "heading": "Our Solution",
+      "body": "An AI-powered platform that automates the boring parts and amplifies the human parts.",
+      "bullets": [
+        "Real-time collaboration across teams",
+        "Intelligent automation that learns your patterns",
+        "Enterprise-grade security and compliance"
+      ]
+    },
+    {
+      "id": "quote",
+      "type": "quote",
+      "quote": "This is the tool we've been waiting for. It changed how our entire team operates.",
+      "attribution": "VP of Engineering, Fortune 500"
+    },
+    {
+      "id": "cta",
+      "type": "title",
+      "heading": "Let's Build Together",
+      "subheading": "hello@example.com"
+    },
+    {
+      "id": "overview",
+      "type": "overview"
+    }
+  ]
+}
