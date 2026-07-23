@@ -33,7 +33,7 @@ metadata:
     - cloudflare-crawl
     - defuddle
     - humanizer
-  author: zmann.zo.computer
+  author: Classified AI
 ---
 
 # Scrapling

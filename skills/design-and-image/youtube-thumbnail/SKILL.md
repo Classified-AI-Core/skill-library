@@ -20,7 +20,7 @@ metadata:
     - memelord
     - verticals
     - fal-generate
-  author: zmann.zo.computer
+  author: Classified AI
 ---
 
 # YouTube Thumbnail

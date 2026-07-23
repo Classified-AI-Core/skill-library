@@ -17,7 +17,7 @@ metadata:
     - verticals
     - fal-lip-sync
     - fal-upscale
-  author: zmann.zo.computer
+  author: Classified AI
 ---
 
 # JSON Canvas Skill

@@ -21,7 +21,7 @@ metadata:
     - defuddle
     - fal-video-edit
     - verticals
-  author: zmann.zo.computer
+  author: Classified AI
 ---
 
 # Quote Post

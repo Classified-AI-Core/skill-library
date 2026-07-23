@@ -24,7 +24,7 @@ metadata:
     - defuddle
     - fal-image-edit
     - fal-generate
-  author: zmann.zo.computer
+  author: Classified AI
 ---
 
 # Newsletter Voice

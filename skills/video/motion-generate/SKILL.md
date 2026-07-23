@@ -6,7 +6,7 @@ description: Generate polished AI videos via Mosaic Motion's REST API (motion.so
   finished video URL out. Each generation burns >= 1 credit.
 compatibility: Created for Zo Computer
 metadata:
-  author: zmann.zo.computer
+  author: Classified AI
   category: content-publishing
   maturity: stable
   tags:

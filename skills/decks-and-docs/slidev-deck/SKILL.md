@@ -3,7 +3,7 @@ name: slidev-deck
 description: Build animated, branded Slidev decks from proposal content and export to PDF/SPA for sharing.
 compatibility: Created for Zo Computer
 metadata:
-  author: zmann.zo.computer
+  author: Classified AI
   category: content-publishing
   maturity: beta
   tags:

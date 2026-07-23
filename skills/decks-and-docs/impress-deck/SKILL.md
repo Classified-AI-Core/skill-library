@@ -3,7 +3,7 @@ name: impress-deck
 description: Generate cinematic Prezi-style presentation decks using impress.js with zoom, pan, rotate, and 3D effects. Deploy to zo.space as a shareable URL. Use when the user wants to create a pitch deck, presentation, or interactive slide deck.
 compatibility: Created for Zo Computer
 metadata:
-  author: zmann.zo.computer
+  author: Classified AI
   category: content-publishing
   maturity: stable
   tags:

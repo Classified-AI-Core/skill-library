@@ -20,7 +20,7 @@ metadata:
     - profile-optimizer
     - post-scorer
     - cut-video
-  author: zmann.zo.computer
+  author: Classified AI
 ---
 
 # Captions And Music Bed

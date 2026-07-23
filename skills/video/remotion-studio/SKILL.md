@@ -5,7 +5,7 @@ compatibility: Created for Zo Computer
 metadata: 
   category: content-publishing
   maturity: stable
-  author: zmann.zo.computer
+  author: Classified AI
   tags:
     - remotion
     - video
@@ -14,7 +14,7 @@ metadata:
   related:
     - remotion-setup
     - remotion-best-practices
-author: zmann.zo.computer
+author: Classified AI
 ---
 # remotion-studio orchestrator
 

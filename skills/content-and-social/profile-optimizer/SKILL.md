@@ -22,7 +22,7 @@ metadata:
     - cloudflare-crawl
     - defuddle
     - fal-generate
-  author: zmann.zo.computer
+  author: Classified AI
 ---
 
 # Profile Optimizer

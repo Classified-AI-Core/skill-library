@@ -1,1247 +1,1247 @@
 {
- "count": 207,
- "skills": [
-  {
-   "name": "brainstorming",
-   "category": "ai-efficiency",
-   "description": "You MUST use this before any creative work - creating features, building components, adding functionality, or modifying behavior. Explores user intent, requirements and design before implementation.",
-   "author": "Obra"
-  },
-  {
-   "name": "close-spec",
-   "category": "ai-efficiency",
-   "description": "When a spec under specs/<feature>/ is done shipping (a write-spec build, or any planned task that produced",
-   "author": "zmann.zo.computer"
-  },
-  {
-   "name": "code-degunker",
-   "category": "ai-efficiency",
-   "description": "|",
-   "author": "skeletorjs"
-  },
-  {
-   "name": "eval-skills",
-   "category": "ai-efficiency",
-   "description": "Eval and improve a skill against golden cases \u2014 run the target skill blind in a fresh, context-free",
-   "author": "zmann.zo.computer"
-  },
-  {
-   "name": "explore-unknowns",
-   "category": "ai-efficiency",
-   "description": "Guide the user through a quadrant walk that maps the unknowns of a task \u2014 open by listing the known knowns,",
-   "author": "zmann.zo.computer"
-  },
-  {
-   "name": "implement-spec",
-   "category": "ai-efficiency",
-   "description": "Implement an existing spec through committed passes. Use for long or multi-pass specs that need maintenance",
-   "author": "zmann.zo.computer"
-  },
-  {
-   "name": "plan-code-changes",
-   "category": "ai-efficiency",
-   "description": "Plan out code changes using a plan file.",
-   "author": "0.zo.computer"
-  },
-  {
-   "name": "premortem",
-   "category": "ai-efficiency",
-   "description": "Run a premortem on any plan, launch, product, hire, strategy, or decision. Assumes it already failed 6",
-   "author": "zmann.zo.computer"
-  },
-  {
-   "name": "prompt-improver",
-   "category": "ai-efficiency",
-   "description": "Improve and optimize prompts for Claude using Anthropic's official best practices and the 5-Element Persona Framework. Use when asked to improve, refine, optimize, or review a prompt. Also triggers on requests to make prompts clearer, more effective, better structured, or to get better/more realisti",
-   "author": "skeletorjs"
-  },
-  {
-   "name": "refactor-clean",
-   "category": "ai-efficiency",
-   "description": "Refactor cleanly instead of layering sediment. Use when a change reveals duplicated concepts, local",
-   "author": "zmann.zo.computer"
-  },
-  {
-   "name": "self-improvement",
-   "category": "ai-efficiency",
-   "description": ">",
-   "author": "skeletorjs"
-  },
-  {
-   "name": "share-skill",
-   "category": "ai-efficiency",
-   "description": "Safely prepare and guide skills for contribution to the Zo Skills Registry. Reviews code for secrets, validates SKILL.md format, checks for suspicious patterns, and provides clear next steps for community or external skill submissions.",
-   "author": "rc2.zo.computer"
-  },
-  {
-   "name": "simplify",
-   "category": "ai-efficiency",
-   "description": "Simplifies and refines code for clarity, consistency, and maintainability while preserving all functionality. Focuses on recently modified code unless instructed otherwise. Run after writing or modifying code to clean it up.",
-   "author": "skeletorjs"
-  },
-  {
-   "name": "skill-creator",
-   "category": "ai-efficiency",
-   "description": "Guide for creating effective skills. This skill should be used when users want to create a new skill (or update an existing skill) that extends Claude's capabilities with specialized knowledge, workflows, or tool integrations.",
-   "author": "Anthropic"
-  },
-  {
-   "name": "supermemory",
-   "category": "ai-efficiency",
-   "description": ">",
-   "author": "skeletorjs"
-  },
-  {
-   "name": "template-skill",
-   "category": "ai-efficiency",
-   "description": "Replace with description of the skill and when Claude should use it.",
-   "author": "Anthropic"
-  },
-  {
-   "name": "write-skills",
-   "category": "ai-efficiency",
-   "description": "Create or revise agent skills. Use when adding a new skill file, renaming a skill, simplifying an existing",
-   "author": "zmann.zo.computer"
-  },
-  {
-   "name": "write-spec",
-   "category": "ai-efficiency",
-   "description": "Break large features into independently verifiable, human-reviewable slices under specs/<feature>/. Use for",
-   "author": "zmann.zo.computer"
-  },
-  {
-   "name": "ab-test-setup",
-   "category": "content-and-social",
-   "description": "When the user wants to plan, design, or implement an A/B test or experiment. Also use when the user mentions \"A/B test,\" \"split test,\" \"experiment,\" \"test this change,\" \"variant copy,\" \"multivariate test,\" or \"hypothesis.\" For tracking implementation, see analytics-tracking.",
-   "author": "Coreyhaines31"
-  },
-  {
-   "name": "analytics-tracking",
-   "category": "content-and-social",
-   "description": "When the user wants to set up, improve, or audit analytics tracking and measurement. Also use when the user mentions \"set up tracking,\" \"GA4,\" \"Google Analytics,\" \"conversion tracking,\" \"event tracking,\" \"UTM parameters,\" \"tag manager,\" \"GTM,\" \"analytics implementation,\" or \"tracking plan.\" For A/B ",
-   "author": "Coreyhaines31"
-  },
-  {
-   "name": "competitor-alternatives",
-   "category": "content-and-social",
-   "description": "|",
-   "author": "Coreyhaines31"
-  },
-  {
-   "name": "content-matrix",
-   "category": "content-and-social",
-   "description": ">",
-   "author": "zmann.zo.computer"
-  },
-  {
-   "name": "copy-editing",
-   "category": "content-and-social",
-   "description": "When the user wants to edit, review, or improve existing marketing copy. Also use when the user mentions 'edit this copy,' 'review my copy,' 'copy feedback,' 'proofread,' 'polish this,' 'make this better,' or 'copy sweep.' This skill provides a systematic approach to editing marketing copy through m",
-   "author": "Coreyhaines31"
-  },
-  {
-   "name": "copywriting",
-   "category": "content-and-social",
-   "description": "When the user wants to write, rewrite, or improve marketing copy for any page \u2014 including homepage, landing pages, pricing pages, feature pages, about pages, or product pages. Also use when the user says \"write copy for,\" \"improve this copy,\" \"rewrite this page,\" \"marketing copy,\" \"headline help,\" o",
-   "author": "Coreyhaines31"
-  },
-  {
-   "name": "dating-profile",
-   "category": "content-and-social",
-   "description": "Creates an ideal dating profile by writing your bio and choosing the best photos in the right order",
-   "author": "ray.zo.computer"
-  },
-  {
-   "name": "email-sequence",
-   "category": "content-and-social",
-   "description": "When the user wants to create or optimize an email sequence, drip campaign, automated email flow, or lifecycle email program. Also use when the user mentions \"email sequence,\" \"drip campaign,\" \"nurture sequence,\" \"onboarding emails,\" \"welcome sequence,\" \"re-engagement emails,\" \"email automation,\" or",
-   "author": "Coreyhaines31"
-  },
-  {
-   "name": "form-cro",
-   "category": "content-and-social",
-   "description": "When the user wants to optimize any form that is NOT signup/registration \u2014 including lead capture forms, contact forms, demo request forms, application forms, survey forms, or checkout forms. Also use when the user mentions \"form optimization,\" \"lead form conversions,\" \"form friction,\" \"form fields,",
-   "author": "Coreyhaines31"
-  },
-  {
-   "name": "free-tool-strategy",
-   "category": "content-and-social",
-   "description": "When the user wants to plan, evaluate, or build a free tool for marketing purposes \u2014 lead generation, SEO value, or brand awareness. Also use when the user mentions \"engineering as marketing,\" \"free tool,\" \"marketing tool,\" \"calculator,\" \"generator,\" \"interactive tool,\" \"lead gen tool,\" \"build a too",
-   "author": "Coreyhaines31"
-  },
-  {
-   "name": "hook-generator",
-   "category": "content-and-social",
-   "description": ">",
-   "author": "zmann.zo.computer"
-  },
-  {
-   "name": "humanizer",
-   "category": "content-and-social",
-   "description": ">",
-   "author": "skeletorjs"
-  },
-  {
-   "name": "internal-comms",
-   "category": "content-and-social",
-   "description": "A set of resources to help me write all kinds of internal communications, using the formats that my company likes to use. Claude should use this skill whenever asked to write some sort of internal communications (status reports, leadership updates, 3P updates, company newsletters, FAQs, incident rep",
-   "author": "Anthropic"
-  },
-  {
-   "name": "launch-strategy",
-   "category": "content-and-social",
-   "description": "When the user wants to plan a product launch, feature announcement, or release strategy. Also use when the user mentions 'launch,' 'Product Hunt,' 'feature release,' 'announcement,' 'go-to-market,' 'beta launch,' 'early access,' 'waitlist,' or 'product update.' This skill covers phased launches, cha",
-   "author": "Coreyhaines31"
-  },
-  {
-   "name": "marketing-ideas",
-   "category": "content-and-social",
-   "description": "When the user needs marketing ideas, inspiration, or strategies for their SaaS or software product. Also use when the user asks for 'marketing ideas,' 'growth ideas,' 'how to market,' 'marketing strategies,' 'marketing tactics,' 'ways to promote,' or 'ideas to grow.' This skill provides 140 proven m",
-   "author": "Coreyhaines31"
-  },
-  {
-   "name": "marketing-psychology",
-   "category": "content-and-social",
-   "description": "When the user wants to apply psychological principles, mental models, or behavioral science to marketing. Also use when the user mentions 'psychology,' 'mental models,' 'cognitive bias,' 'persuasion,' 'behavioral science,' 'why people buy,' 'decision-making,' or 'consumer behavior.' This skill provi",
-   "author": "Coreyhaines31"
-  },
-  {
-   "name": "newsletter-voice",
-   "category": "content-and-social",
-   "description": ">",
-   "author": "zmann.zo.computer"
-  },
-  {
-   "name": "niche-research",
-   "category": "content-and-social",
-   "description": ">",
-   "author": "zmann.zo.computer"
-  },
-  {
-   "name": "onboarding-cro",
-   "category": "content-and-social",
-   "description": "When the user wants to optimize post-signup onboarding, user activation, first-run experience, or time-to-value. Also use when the user mentions \"onboarding flow,\" \"activation rate,\" \"user activation,\" \"first-run experience,\" \"empty states,\" \"onboarding checklist,\" \"aha moment,\" or \"new user experie",
-   "author": "Coreyhaines31"
-  },
-  {
-   "name": "page-cro",
-   "category": "content-and-social",
-   "description": "When the user wants to optimize, improve, or increase conversions on any marketing page \u2014 including homepage, landing pages, pricing pages, feature pages, or blog posts. Also use when the user says \"CRO,\" \"conversion rate optimization,\" \"this page isn't converting,\" \"improve conversions,\" or \"why is",
-   "author": "Coreyhaines31"
-  },
-  {
-   "name": "paid-ads",
-   "category": "content-and-social",
-   "description": "When the user wants help with paid advertising campaigns on Google Ads, Meta (Facebook/Instagram), LinkedIn, Twitter/X, or other ad platforms. Also use when the user mentions 'PPC,' 'paid media,' 'ad copy,' 'ad creative,' 'ROAS,' 'CPA,' 'ad campaign,' 'retargeting,' or 'audience targeting.' This ski",
-   "author": "Coreyhaines31"
-  },
-  {
-   "name": "paywall-upgrade-cro",
-   "category": "content-and-social",
-   "description": "When the user wants to create or optimize in-app paywalls, upgrade screens, upsell modals, or feature gates. Also use when the user mentions \"paywall,\" \"upgrade screen,\" \"upgrade modal,\" \"upsell,\" \"feature gate,\" \"convert free to paid,\" \"freemium conversion,\" \"trial expiration screen,\" \"limit reache",
-   "author": "Coreyhaines31"
-  },
-  {
-   "name": "pinned-comment",
-   "category": "content-and-social",
-   "description": "Write LinkedIn pinned comments AND image generation prompts in Charlie Hills' signature style. Use when",
-   "author": "zmann.zo.computer"
-  },
-  {
-   "name": "popup-cro",
-   "category": "content-and-social",
-   "description": "When the user wants to create or optimize popups, modals, overlays, slide-ins, or banners for conversion purposes. Also use when the user mentions \"exit intent,\" \"popup conversions,\" \"modal optimization,\" \"lead capture popup,\" \"email popup,\" \"announcement banner,\" or \"overlay.\" For forms outside of ",
-   "author": "Coreyhaines31"
-  },
-  {
-   "name": "post-formatter",
-   "category": "content-and-social",
-   "description": ">",
-   "author": "zmann.zo.computer"
-  },
-  {
-   "name": "post-scorer",
-   "category": "content-and-social",
-   "description": ">",
-   "author": "zmann.zo.computer"
-  },
-  {
-   "name": "post-writer",
-   "category": "content-and-social",
-   "description": ">",
-   "author": "zmann.zo.computer"
-  },
-  {
-   "name": "pricing-strategy",
-   "category": "content-and-social",
-   "description": "When the user wants help with pricing decisions, packaging, or monetization strategy. Also use when the user mentions 'pricing,' 'pricing tiers,' 'freemium,' 'free trial,' 'packaging,' 'price increase,' 'value metric,' 'Van Westendorp,' 'willingness to pay,' or 'monetization.' This skill covers pric",
-   "author": "Coreyhaines31"
-  },
-  {
-   "name": "profile-optimizer",
-   "category": "content-and-social",
-   "description": ">",
-   "author": "zmann.zo.computer"
-  },
-  {
-   "name": "programmatic-seo",
-   "category": "content-and-social",
-   "description": "When the user wants to create SEO-driven pages at scale using templates and data. Also use when the user mentions \"programmatic SEO,\" \"template pages,\" \"pages at scale,\" \"directory pages,\" \"location pages,\" \"[keyword] + [city] pages,\" \"comparison pages,\" \"integration pages,\" or \"building many pages ",
-   "author": "Coreyhaines31"
-  },
-  {
-   "name": "quote-post",
-   "category": "content-and-social",
-   "description": ">",
-   "author": "zmann.zo.computer"
-  },
-  {
-   "name": "reels-scripting",
-   "category": "content-and-social",
-   "description": ">",
-   "author": "zmann.zo.computer"
-  },
-  {
-   "name": "referral-program",
-   "category": "content-and-social",
-   "description": "When the user wants to create, optimize, or analyze a referral program, affiliate program, or word-of-mouth strategy. Also use when the user mentions 'referral,' 'affiliate,' 'ambassador,' 'word of mouth,' 'viral loop,' 'refer a friend,' or 'partner program.' This skill covers program design, incent",
-   "author": "Coreyhaines31"
-  },
-  {
-   "name": "schema-markup",
-   "category": "content-and-social",
-   "description": "When the user wants to add, fix, or optimize schema markup and structured data on their site. Also use when the user mentions \"schema markup,\" \"structured data,\" \"JSON-LD,\" \"rich snippets,\" \"schema.org,\" \"FAQ schema,\" \"product schema,\" \"review schema,\" or \"breadcrumb schema.\" For broader SEO issues,",
-   "author": "Coreyhaines31"
-  },
-  {
-   "name": "seo-audit",
-   "category": "content-and-social",
-   "description": "When the user wants to audit, review, or diagnose SEO issues on their site. Also use when the user mentions \"SEO audit,\" \"technical SEO,\" \"why am I not ranking,\" \"SEO issues,\" \"on-page SEO,\" \"meta tags review,\" or \"SEO health check.\" For building pages at scale to target keywords, see programmatic-s",
-   "author": "Coreyhaines31"
-  },
-  {
-   "name": "signup-flow-cro",
-   "category": "content-and-social",
-   "description": "When the user wants to optimize signup, registration, account creation, or trial activation flows. Also use when the user mentions \"signup conversions,\" \"registration friction,\" \"signup form optimization,\" \"free trial signup,\" \"reduce signup dropoff,\" or \"account creation flow.\" For post-signup onbo",
-   "author": "Coreyhaines31"
-  },
-  {
-   "name": "social-content",
-   "category": "content-and-social",
-   "description": "When the user wants help creating, scheduling, or optimizing social media content for LinkedIn, Twitter/X, Instagram, TikTok, Facebook, or other platforms. Also use when the user mentions 'LinkedIn post,' 'Twitter thread,' 'social media,' 'content calendar,' 'social scheduling,' 'engagement,' or 'vi",
-   "author": "Coreyhaines31"
-  },
-  {
-   "name": "tweetscape-narrator",
-   "category": "content-and-social",
-   "description": "|",
-   "author": "rc2.zo.computer"
-  },
-  {
-   "name": "doc-coauthoring",
-   "category": "decks-and-docs",
-   "description": "Guide users through a structured workflow for co-authoring documentation. Use when user wants to write documentation, proposals, technical specs, decision docs, or similar structured content. This workflow helps users efficiently transfer context, refine content through iteration, and verify the doc",
-   "author": "Anthropic"
-  },
-  {
-   "name": "impress-deck",
-   "category": "decks-and-docs",
-   "description": "Generate cinematic Prezi-style presentation decks using impress.js with zoom, pan, rotate, and 3D effects. Deploy to zo.space as a shareable URL. Use when the user wants to create a pitch deck, presentation, or interactive slide deck.",
-   "author": "zmann.zo.computer"
-  },
-  {
-   "name": "json-canvas",
-   "category": "decks-and-docs",
-   "description": "Create and edit JSON Canvas files (.canvas) with nodes, edges, groups, and connections. Use when working",
-   "author": "zmann.zo.computer"
-  },
-  {
-   "name": "obsidian-markdown",
-   "category": "decks-and-docs",
-   "description": "Create and edit Obsidian Flavored Markdown with wikilinks, embeds, callouts, properties, and other",
-   "author": "zmann.zo.computer"
-  },
-  {
-   "name": "pdf",
-   "category": "decks-and-docs",
-   "description": "Comprehensive PDF manipulation toolkit for extracting text and tables, creating new PDFs, merging/splitting documents, and handling forms. When Claude needs to fill in a PDF form or programmatically process, generate, or analyze PDF documents at scale.",
-   "author": "Anthropic"
-  },
-  {
-   "name": "revealjs-presentation",
-   "category": "decks-and-docs",
-   "description": "|",
-   "author": "skeletorjs.zo.computer"
-  },
-  {
-   "name": "slidev-deck",
-   "category": "decks-and-docs",
-   "description": "Build animated, branded Slidev decks from proposal content and export to PDF/SPA for sharing.",
-   "author": "zmann.zo.computer"
-  },
-  {
-   "name": "visual-explainer",
-   "category": "decks-and-docs",
-   "description": "Build polished visual explainers as zo.space pages. Creates public routes at /explain/[slug] and keeps each explainer shareable at a stable URL.",
-   "author": "skeletorjs"
-  },
-  {
-   "name": "zo-create-slidedeck",
-   "category": "decks-and-docs",
-   "description": "Turn any reference material into a polished, visually cohesive slide deck.",
-   "author": "rob.zo.computer"
-  },
-  {
-   "name": "zo-epub-to-markdown",
-   "category": "decks-and-docs",
-   "description": "Convert EPUB ebooks to Markdown format",
-   "author": "Zo"
-  },
-  {
-   "name": "zo-generate-pdf",
-   "category": "decks-and-docs",
-   "description": "Convert Markdown files to PDF format with professional formatting",
-   "author": "Zo"
-  },
-  {
-   "name": "zo-pdf-to-markdown",
-   "category": "decks-and-docs",
-   "description": "Convert PDF files to Markdown format",
-   "author": "Zo"
-  },
-  {
-   "name": "algorithmic-art",
-   "category": "design-and-image",
-   "description": "Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration. Use this when users request creating art using code, generative art, algorithmic art, flow fields, or particle systems. Create original algorithmic art rather than copying existing artists' work to avo",
-   "author": "Anthropic"
-  },
-  {
-   "name": "brand-guidelines",
-   "category": "design-and-image",
-   "description": "Applies Anthropic's official brand colors and typography to any sort of artifact that may benefit from having Anthropic's look-and-feel. Use it when brand colors or style guidelines, visual formatting, or company design standards apply.",
-   "author": "Anthropic"
-  },
-  {
-   "name": "canvas-design",
-   "category": "design-and-image",
-   "description": "Create beautiful visual art in .png and .pdf documents using design philosophy. You should use this skill when the user asks to create a poster, piece of art, design, or other static piece. Create original visual designs, never copying existing artists' work to avoid copyright violations.",
-   "author": "Anthropic"
-  },
-  {
-   "name": "compare-screenshots",
-   "category": "design-and-image",
-   "description": "Compare screenshots to judge which image is less wrong, not to match a baseline. Use when a UI, game,",
-   "author": "zmann.zo.computer"
-  },
-  {
-   "name": "fal-image-edit",
-   "category": "design-and-image",
-   "description": "Edit images using AI on fal.ai. Style transfer, object removal, background changes, and more. Use when the",
-   "author": "fal-ai"
-  },
-  {
-   "name": "fal-restore",
-   "category": "design-and-image",
-   "description": "Restore and fix image quality \u2014 deblur, denoise, dehaze, fix faces, restore documents. Use when the user",
-   "author": "fal-ai"
-  },
-  {
-   "name": "fal-upscale",
-   "category": "design-and-image",
-   "description": "Upscale and enhance image resolution using AI. Use when the user requests \"Upscale image\", \"Enhance",
-   "author": "fal-ai"
-  },
-  {
-   "name": "gemini-carousel",
-   "category": "design-and-image",
-   "description": ">",
-   "author": "zmann.zo.computer"
-  },
-  {
-   "name": "gemini-infographic",
-   "category": "design-and-image",
-   "description": ">",
-   "author": "zmann.zo.computer"
-  },
-  {
-   "name": "graphic-designer",
-   "category": "design-and-image",
-   "description": ">",
-   "author": "zmann.zo.computer"
-  },
-  {
-   "name": "humation-avatar",
-   "category": "design-and-image",
-   "description": "A Zo Computer skill for adding Humation avatars to agent products. It covers installing Humation npm packages into target projects, React integration, Core SVG rendering, static SVG generation, browser ESM usage in zo.space page routes, and legacy Humation SVG API compatibility.",
-   "author": "yusuke.zo.computer"
-  },
-  {
-   "name": "meme-factory",
-   "category": "design-and-image",
-   "description": "Generate memes using the memegen.link API. Use when users request memes, want to add humor to content, or need visual aids for social media. Supports 100+ popular templates with custom text and styling.",
-   "author": "Softaworks"
-  },
-  {
-   "name": "memelord",
-   "category": "design-and-image",
-   "description": "AI-powered meme generation, meme editing, and meme video generation using the Memelord API. Use when the",
-   "author": "zmann.zo.computer"
-  },
-  {
-   "name": "nano-banana-2",
-   "category": "design-and-image",
-   "description": "Generates AI images using the nano-banana CLI (Gemini 3.1 Flash default, Pro available). Handles multi-resolution (512-4K), aspect ratios, reference images for style transfer, green screen workflow for transparent assets, cost tracking, and exact dimension control. Use when asked to \"generate an ima",
-   "author": "zmann.zo.computer"
-  },
-  {
-   "name": "screenshot-critique",
-   "category": "design-and-image",
-   "description": "Use the unprimed sub agent as a second set of eyes before accepting visual work.",
-   "author": "zmann.zo.computer"
-  },
-  {
-   "name": "slack-gif-creator",
-   "category": "design-and-image",
-   "description": "Knowledge and utilities for creating animated GIFs optimized for Slack. Provides constraints, validation tools, and animation concepts. Use when users request animated GIFs for Slack like \"make me a GIF of X doing Y for Slack.",
-   "author": "Anthropic"
-  },
-  {
-   "name": "theme-factory",
-   "category": "design-and-image",
-   "description": "Toolkit for styling artifacts with a theme. These artifacts can be slides, docs, reportings, HTML landing pages, etc. There are 10 pre-set themes with colors/fonts that you can apply to any artifact that has been creating, or can generate a new theme on-the-fly.",
-   "author": "Anthropic"
-  },
-  {
-   "name": "youtube-thumbnail",
-   "category": "design-and-image",
-   "description": ">",
-   "author": "zmann.zo.computer"
-  },
-  {
-   "name": "cloudflare-crawl",
-   "category": "dev-and-web",
-   "description": "Crawl entire websites using Cloudflare's Browser Rendering /crawl API. Returns site content as Markdown,",
-   "author": "zmann.zo.computer"
-  },
-  {
-   "name": "context7",
-   "category": "dev-and-web",
-   "description": ">-",
-   "author": "skeletorjs"
-  },
-  {
-   "name": "defuddle",
-   "category": "dev-and-web",
-   "description": "Extract clean markdown content from web pages using Defuddle CLI, removing clutter and navigation to save",
-   "author": "zmann.zo.computer"
-  },
-  {
-   "name": "exe-dev",
-   "category": "dev-and-web",
-   "description": "Manage exe.dev VMs - create, list, delete, restart, rename, copy VMs and manage sharing/access. Use when the user wants to spin up new VMs, manage existing ones, or configure HTTP proxy sharing on exe.dev.",
-   "author": "davidj.zo.computer"
-  },
-  {
-   "name": "frontend-design",
-   "category": "dev-and-web",
-   "description": "Create distinctive, production-grade frontend interfaces with high design quality. Use this skill when the user asks to build web components, pages, artifacts, posters, or applications (examples include websites, landing pages, dashboards, React components, HTML/CSS layouts, or when styling/beautify",
-   "author": "Anthropic"
-  },
-  {
-   "name": "github",
-   "category": "dev-and-web",
-   "description": "Interact with GitHub using the `gh` CLI. Use `gh issue`, `gh pr`, `gh run`, and `gh api` for issues, PRs, CI runs, and advanced queries.",
-   "author": "Clawdbot"
-  },
-  {
-   "name": "mcp-builder",
-   "category": "dev-and-web",
-   "description": "Guide for creating high-quality MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools. Use when building MCP servers to integrate external APIs or services, whether in Python (FastMCP) or Node/TypeScript (MCP SDK).",
-   "author": "Anthropic"
-  },
-  {
-   "name": "mcporter",
-   "category": "dev-and-web",
-   "description": "Work with MCP servers directly",
-   "author": "Clawdbot"
-  },
-  {
-   "name": "mcporter-setup",
-   "category": "dev-and-web",
-   "description": ">-",
-   "author": "curtastrophe"
-  },
-  {
-   "name": "scrapling-official",
-   "category": "dev-and-web",
-   "description": "Scrape web pages using Scrapling with anti-bot bypass (like Cloudflare Turnstile), stealth headless",
-   "author": "zmann.zo.computer"
-  },
-  {
-   "name": "threejs-animation",
-   "category": "dev-and-web",
-   "description": "Three.js animation - keyframe animation, skeletal animation, morph targets, animation mixing. Use when animating objects, playing GLTF animations, creating procedural motion, or blending animations.",
-   "author": "Cloudai-x"
-  },
-  {
-   "name": "threejs-fundamentals",
-   "category": "dev-and-web",
-   "description": "Three.js scene setup, cameras, renderer, Object3D hierarchy, coordinate systems. Use when setting up 3D scenes, creating cameras, configuring renderers, managing object hierarchies, or working with transforms.",
-   "author": "Cloudai-x"
-  },
-  {
-   "name": "threejs-geometry",
-   "category": "dev-and-web",
-   "description": "Three.js geometry creation - built-in shapes, BufferGeometry, custom geometry, instancing. Use when creating 3D shapes, working with vertices, building custom meshes, or optimizing with instanced rendering.",
-   "author": "Cloudai-x"
-  },
-  {
-   "name": "threejs-interaction",
-   "category": "dev-and-web",
-   "description": "Three.js interaction - raycasting, controls, mouse/touch input, object selection. Use when handling user input, implementing click detection, adding camera controls, or creating interactive 3D experiences.",
-   "author": "Cloudai-x"
-  },
-  {
-   "name": "threejs-lighting",
-   "category": "dev-and-web",
-   "description": "Three.js lighting - light types, shadows, environment lighting. Use when adding lights, configuring shadows, setting up IBL, or optimizing lighting performance.",
-   "author": "Cloudai-x"
-  },
-  {
-   "name": "threejs-loaders",
-   "category": "dev-and-web",
-   "description": "Three.js asset loading - GLTF, textures, images, models, async patterns. Use when loading 3D models, textures, HDR environments, or managing loading progress.",
-   "author": "Cloudai-x"
-  },
-  {
-   "name": "threejs-materials",
-   "category": "dev-and-web",
-   "description": "Three.js materials - PBR, basic, phong, shader materials, material properties. Use when styling meshes, working with textures, creating custom shaders, or optimizing material performance.",
-   "author": "Cloudai-x"
-  },
-  {
-   "name": "threejs-postprocessing",
-   "category": "dev-and-web",
-   "description": "Three.js post-processing - EffectComposer, bloom, DOF, screen effects. Use when adding visual effects, color grading, blur, glow, or creating custom screen-space shaders.",
-   "author": "Cloudai-x"
-  },
-  {
-   "name": "threejs-shaders",
-   "category": "dev-and-web",
-   "description": "Three.js shaders - GLSL, ShaderMaterial, uniforms, custom effects. Use when creating custom visual effects, modifying vertices, writing fragment shaders, or extending built-in materials.",
-   "author": "Cloudai-x"
-  },
-  {
-   "name": "threejs-textures",
-   "category": "dev-and-web",
-   "description": "Three.js textures - texture types, UV mapping, environment maps, texture settings. Use when working with images, UV coordinates, cubemaps, HDR environments, or texture optimization.",
-   "author": "Cloudai-x"
-  },
-  {
-   "name": "tmux",
-   "category": "dev-and-web",
-   "description": "Remote-control tmux sessions for interactive CLIs by sending keystrokes and scraping pane output.",
-   "author": "Clawdbot"
-  },
-  {
-   "name": "web-artifacts-builder",
-   "category": "dev-and-web",
-   "description": "Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern frontend web technologies (React, Tailwind CSS, shadcn/ui). Use for complex artifacts requiring state management, routing, or shadcn/ui components - not for simple single-file HTML/JSX artifacts.",
-   "author": "Anthropic"
-  },
-  {
-   "name": "web-scraper",
-   "category": "dev-and-web",
-   "description": "Crawl and extract structured data from websites. Uses a tiered approach -- Zo built-ins for simple fetches, BeautifulSoup for custom parsing, Crawl4AI for deep crawls and LLM-powered extraction. Use when you need to scrape a website, extract structured data, or crawl multiple pages.",
-   "author": "skeletorjs"
-  },
-  {
-   "name": "webapp-testing",
-   "category": "dev-and-web",
-   "description": "Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend functionality, debugging UI behavior, capturing browser screenshots, and viewing browser logs.",
-   "author": "Anthropic"
-  },
-  {
-   "name": "zo-blog-site",
-   "category": "dev-and-web",
-   "description": "Build a blog or newsletter to share your thoughts.",
-   "author": "Zo"
-  },
-  {
-   "name": "zo-code-server-setup",
-   "category": "dev-and-web",
-   "description": "Sets up VS Code in your web browser so you can write and edit code from anywhere",
-   "author": "Zo"
-  },
-  {
-   "name": "zo-create-site",
-   "category": "dev-and-web",
-   "description": "Create a site hosted on your Zo server. Private by default, publish with a click.",
-   "author": "Zo"
-  },
-  {
-   "name": "zo-grafana-setup",
-   "category": "dev-and-web",
-   "description": "Sets up a visual dashboard to explore and analyze your system logs and data",
-   "author": "Zo"
-  },
-  {
-   "name": "zo-guestbook-site",
-   "category": "dev-and-web",
-   "description": "Build an interactive guestbook where visitors can leave messages.",
-   "author": "Zo"
-  },
-  {
-   "name": "zo-portfolio-site",
-   "category": "dev-and-web",
-   "description": "Build a personal portfolio to showcase your work and resume.",
-   "author": "Zo"
-  },
-  {
-   "name": "zo-space",
-   "category": "dev-and-web",
-   "description": ">",
-   "author": "skeletorjs"
-  },
-  {
-   "name": "zo-ssh-setup",
-   "category": "dev-and-web",
-   "description": "Sets up secure remote access to your Zo Computer so you can connect from anywhere",
-   "author": "Zo"
-  },
-  {
-   "name": "zopack",
-   "category": "dev-and-web",
-   "description": "Export and import zo.space route setups as shareable .zopack.md files. Use when the user wants to package their zo.space routes for sharing, or when they receive a .zopack.md file to deploy. Triggers on \"export my zo.space\", \"create a zopack\", \"import this zopack\", or any mention of .zopack.md files",
-   "author": "skeletorjs.zo.computer"
-  },
-  {
-   "name": "zopenclaw",
-   "category": "dev-and-web",
-   "description": "|",
-   "author": "skeletorjs"
-  },
-  {
-   "name": "eightctl",
-   "category": "integrations",
-   "description": "Control Eight Sleep pods (status, temperature, alarms, schedules).",
-   "author": "Clawdbot"
-  },
-  {
-   "name": "lastfm",
-   "category": "integrations",
-   "description": "Access Last.fm listening history, music stats, and discovery. Query recent tracks, top artists/albums/tracks, loved tracks, similar artists, and global charts.",
-   "author": "Clawdbot"
-  },
-  {
-   "name": "moltbook",
-   "category": "integrations",
-   "description": "Post, reply, and engage on Moltbook, a social network for AI agents.",
-   "author": "Moltbot"
-  },
-  {
-   "name": "pitchfork-best-tracks",
-   "category": "integrations",
-   "description": "Finds the latest songs from Pitchfork's Best New Tracks and creates a Spotify playlist for you",
-   "author": "ian.zo.computer"
-  },
-  {
-   "name": "stripe-best-practices",
-   "category": "integrations",
-   "description": "Best practices for building a Stripe integrations",
-   "author": "Stripe"
-  },
-  {
-   "name": "trello",
-   "category": "integrations",
-   "description": "Work with Trello using your own Trello API key (free)",
-   "author": "Clawdbot"
-  },
-  {
-   "name": "vapi",
-   "category": "integrations",
-   "description": "Voice AI integration with Vapi. Enables inbound/outbound phone calls with AI voice agents that can check calendars and book appointments.",
-   "author": "anonymous"
-  },
-  {
-   "name": "zo-moonpay-auth",
-   "category": "integrations",
-   "description": "Set up the MoonPay CLI on Zo, authenticate the current user, and create or inspect local wallets. Use when MoonPay commands fail because the user is not logged in, when a wallet is missing, or when a MoonPay flow needs login completed before continuing.",
-   "author": "Zo"
-  },
-  {
-   "name": "zo-moonpay-buy-crypto",
-   "category": "integrations",
-   "description": "Generate a MoonPay fiat-to-crypto checkout flow on Zo. Use when the user wants to buy crypto with card or bank transfer and then complete the purchase in the Zo browser.",
-   "author": "Zo"
-  },
-  {
-   "name": "zo-moonpay-check-wallet",
-   "category": "integrations",
-   "description": "Check MoonPay wallet balances, token holdings, and portfolio breakdown on Zo. Use when the user asks what is in their wallet, wants a portfolio summary, or needs balances before a MoonPay swap or buy flow.",
-   "author": "Zo"
-  },
-  {
-   "name": "zo-moonpay-swap-tokens",
-   "category": "integrations",
-   "description": "Swap tokens or bridge assets with MoonPay on Zo. Use when the user wants to swap one token for another, bridge between supported chains, or move crypto through a MoonPay wallet workflow.",
-   "author": "Zo"
-  },
-  {
-   "name": "zo-moonpay-virtual-account",
-   "category": "integrations",
-   "description": "Set up and operate MoonPay virtual accounts on Zo for fiat onramp and offramp flows. Use when the user wants to complete KYC, register payout or deposit details, or move between fiat and supported stablecoins.",
-   "author": "Zo"
-  },
-  {
-   "name": "zo-okx-cex-market",
-   "category": "integrations",
-   "description": "Query OKX market data on Zo, including prices, candles, order books, funding rates, open interest, instruments, and technical indicators. Use for read-only market questions and never for account or trading actions.",
-   "author": "Zo"
-  },
-  {
-   "name": "zo-okx-cex-portfolio",
-   "category": "integrations",
-   "description": "Inspect OKX account balances, positions, PnL, bills, fee levels, and related account state on Zo. Use when the user asks about holdings, positions, realized or unrealized PnL, transfers, or account configuration.",
-   "author": "Zo"
-  },
-  {
-   "name": "zo-okx-cex-trade",
-   "category": "integrations",
-   "description": "Execute and manage OKX spot, perpetual, futures, and supported options trades on Zo. Use when the user wants to place, cancel, amend, or inspect tradable orders, but require explicit same-thread confirmation before any live execution.",
-   "author": "Zo"
-  },
-  {
-   "name": "zo-setup-guide",
-   "category": "integrations",
-   "description": "A beginner-friendly guide to setting up a personalized AI computer on Zo. Walk through the core concepts (models, files, skills, agents, hosting, secrets) and a 5-layer strategy for building a real system. Activate when a user wants help understanding or setting up their Zo.",
-   "author": "zmann.zo.computer"
-  },
-  {
-   "name": "zo-twitter",
-   "category": "integrations",
-   "description": "Let Zo use your X (Twitter) account via bird CLI (cookie auth) or xapi (official X API v2). Use bird for reading/posting with cookie auth. Use xapi for DMs, like/retweet/block/mute actions, engagement metrics, polls, hide replies, and structured API access.",
-   "author": "Zo"
-  },
-  {
-   "name": "add-flashcards",
-   "category": "productivity",
-   "description": "Converts webpages, articles, or documents into study flashcards that you can review with spaced repetition",
-   "author": "rc2.zo.computer"
-  },
-  {
-   "name": "claude-code-window-primer",
-   "category": "productivity",
-   "description": "Optimize Claude Code Pro/Max usage by starting the 5-hour rolling window early morning, giving you more resets during waking hours.",
-   "author": "va.zo.computer"
-  },
-  {
-   "name": "daily-affirmations",
-   "category": "productivity",
-   "description": "Send yourself a daily text message with a randomly selected or rotating positive affirmation.",
-   "author": "Zo"
-  },
-  {
-   "name": "handoff",
-   "category": "productivity",
-   "description": ">",
-   "author": "skeletorjs"
-  },
-  {
-   "name": "hashcards-setup",
-   "category": "productivity",
-   "description": "Sets up a spaced repetition flashcard system that you can access through your web browser to study and memorize information",
-   "author": "rc2.zo.computer"
-  },
-  {
-   "name": "journal",
-   "category": "productivity",
-   "description": ">",
-   "author": "skeletorjs"
-  },
-  {
-   "name": "midday-checkin",
-   "category": "productivity",
-   "description": ">",
-   "author": "skeletorjs"
-  },
-  {
-   "name": "morning-briefing",
-   "category": "productivity",
-   "description": ">",
-   "author": "skeletorjs"
-  },
-  {
-   "name": "receipt-tracker-setup",
-   "category": "productivity",
-   "description": "Automatically scans receipts you drop in a folder, extracts the details, and saves them to a searchable database",
-   "author": "rob.zo.computer"
-  },
-  {
-   "name": "syllabus-reminders",
-   "category": "productivity",
-   "description": "Reads your syllabus, finds all due dates, and sets up text reminders and calendar events so you never miss an assignment",
-   "author": "hatsunemiku.zo.computer"
-  },
-  {
-   "name": "zo-automate-something",
-   "category": "productivity",
-   "description": "Create an automation with a Zo Agent task",
-   "author": "Zo"
-  },
-  {
-   "name": "zo-daily-linear-digest",
-   "category": "productivity",
-   "description": "Creates an automation to email you a summary of your Linear activity from the previous day",
-   "author": "Zo"
-  },
-  {
-   "name": "zo-important-email-digest",
-   "category": "productivity",
-   "description": "Finds your most important emails from the past 2 days and texts you a summary with suggested follow-ups",
-   "author": "Zo"
-  },
-  {
-   "name": "zo-meeting-list",
-   "category": "productivity",
-   "description": "Shows you all the people you've met with recently, organized by meeting",
-   "author": "Zo"
-  },
-  {
-   "name": "zo-n8n-setup",
-   "category": "productivity",
-   "description": "Sets up n8n workflow automation tool so you can create automated workflows between different apps and services",
-   "author": "Zo"
-  },
-  {
-   "name": "zo-organize-workspace",
-   "category": "productivity",
-   "description": "Organizes your scattered files into logical folders by project, type, and purpose",
-   "author": "Zo"
-  },
-  {
-   "name": "zo-weekly-meeting-reminder",
-   "category": "productivity",
-   "description": "Get an email every Sunday evening listing your meetings for the coming week.",
-   "author": "Zo"
-  },
-  {
-   "name": "blogwatcher",
-   "category": "research",
-   "description": "Monitor blogs and RSS/Atom feeds for updates using the blogwatcher CLI.",
-   "author": "Clawdbot"
-  },
-  {
-   "name": "clarion-expected-return-calc",
-   "category": "research",
-   "description": "Compute the equity-vs-T-bill allocation for the Value bucket (50% of portfolio). Implements the Expected-Return Framework \u2014 looks up the historical 10-year forward return from the S&P 500 Shiller CAPE, computes the regime-adjusted hurdle (rf + regime premium), and produces a 5-tier verdict (STRONG E",
-   "author": "cis.zo.computer"
-  },
-  {
-   "name": "clarion-living-letter-update",
-   "category": "research",
-   "description": "Update the annual investor letter at ~/clarion/letters/{YEAR}-letter.md with a new quarterly section, or finalize it at year-end. Auto-fills the system-deterministic parts (regime snapshot, thesis health table, portfolio bucket positions from active theses); marks the narrative-heavy parts (What We ",
-   "author": "cis.zo.computer"
-  },
-  {
-   "name": "clarion-regime-check",
-   "category": "research",
-   "description": "Reads the SPY/TLT/RSP color regime and the equity hurdle rate. Use when the user asks about the market regime, risk-on / risk-off, market color, SPY/TLT regime, breadth, or what hurdle rate to use for new positions. Pulls daily bars via yfinance (cached locally). Optionally accepts a 1Y T-bill yield",
-   "author": "cis.zo.computer"
-  },
-  {
-   "name": "clarion-sec-research",
-   "category": "research",
-   "description": "Pull, index, and search SEC EDGAR filings for any public company. Supports 10-K and 10-Q (annual/quarterly with curated section extraction for risk factors, MD&A, business, and financials), Form 3/4/5 (insider transactions), 8-K (material events), DEF 14A (proxy/governance), S-1 (IPO/registration), ",
-   "author": "cis.zo.computer"
-  },
-  {
-   "name": "clarion-setup",
-   "category": "research",
-   "description": "Bootstraps the Clarion Intelligence System on Zo Computer. Run this once after installing \u2014 clones the source repo, installs the ai_buffett_zo Python library, creates the workspace data tree under /home/workspace/clarion/ (auto-detected on Zo), auto-installs all nine sibling clarion-* skills (regime",
-   "author": "cis.zo.computer"
-  },
-  {
-   "name": "clarion-single-stock-eval",
-   "category": "research",
-   "description": "Evaluate a single stock using the Buffett lens. Pulls a quality snapshot from yfinance, current SPY/TLT regime context, and snippets from the indexed SEC filings across four dimensions (moat, management, financial trends, risks). The chat agent reasons over the structured output to produce a written",
-   "author": "cis.zo.computer"
-  },
-  {
-   "name": "clarion-thesis-monitor",
-   "category": "research",
-   "description": "Monitor the health of every active thesis in ~/clarion/theses/. For each one \u2014 refresh price, recompute Risk Environment from the current regime, check kill conditions (read from the file's status column), aggregate to an Overall score, recommend an action (EXIT / REDUCE / HOLD / ADD), and write the",
-   "author": "cis.zo.computer"
-  },
-  {
-   "name": "clarion-thesis-write",
-   "category": "research",
-   "description": "Scaffold a new thesis document for a ticker in the canonical Clarion thesis format. Pre-fills the YAML metadata block, opens the History with an OPENED entry, and (when filings are indexed) seeds the \"Why I Believe It\" evidence section with draft citations from the Buffett-lens search. The user fill",
-   "author": "cis.zo.computer"
-  },
-  {
-   "name": "clarion-value-screener",
-   "category": "research",
-   "description": "Run a value-quality screen and write a watchlist file. The script accepts either a list of tickers (fundamentals fetched from yfinance) or a JSON input file the chat agent prepared from a screener site (multpl.com, finviz, Yardeni, etc.). Computes the 8-factor composite score (P/E, P/FCF, ROE, ROIC,",
-   "author": "cis.zo.computer"
-  },
-  {
-   "name": "clarion-watchlist-update",
-   "category": "research",
-   "description": "Refresh prices on the latest watchlist and surface what's moved, what's hit triggers, and what's stale. Reads ~/clarion/watchlists/sp500-screen-LATEST.md, fetches current prices for every ticker via yfinance, computes % move since the screen, and flags large moves (>10% in either direction) as worth",
-   "author": "cis.zo.computer"
-  },
-  {
-   "name": "market-research",
-   "category": "research",
-   "description": ">",
-   "author": "skeletorjs"
-  },
-  {
-   "name": "personal-genomics-analysis",
-   "category": "research",
-   "description": "Analyzes your 23andMe genetic data to identify health risks, drug sensitivities, ancestry, and traits, then generates a personalized report",
-   "author": "rob.zo.computer"
-  },
-  {
-   "name": "sec-edgar",
-   "category": "research",
-   "description": "Natural-language SEC filing intelligence \u2014 fetch, index, search, and analyze SEC EDGAR filings for any public company via conversation. Built on the PageIndex vectorless RAG methodology.",
-   "author": "cis.zo.computer"
-  },
-  {
-   "name": "seo-data",
-   "category": "research",
-   "description": "SEO research via DataForSEO API. Keyword research, SERP analysis, backlink profiles, domain analytics,",
-   "author": "skeletorjs"
-  },
-  {
-   "name": "summarize-hacker-news",
-   "category": "research",
-   "description": "Picks the most interesting articles from Hacker News, reads them, and emails you a summary",
-   "author": "0.zo.computer"
-  },
-  {
-   "name": "toprank",
-   "category": "research",
-   "description": "Use the local Toprank upstream repo to run SEO and Google Ads workflows for Zo projects. Activate when the",
-   "author": "zmann.zo.computer"
-  },
-  {
-   "name": "zo-daily-news-digest",
-   "category": "research",
-   "description": "Fetch the latest headlines on a topic you care about and email it to you every morning.",
-   "author": "Zo"
-  },
-  {
-   "name": "zo-dataset-creator",
-   "category": "research",
-   "description": ">",
-   "author": "skeletorjs"
-  },
-  {
-   "name": "zo-enrich-csv",
-   "category": "research",
-   "description": "Adds new columns to your spreadsheet by generating information for each row",
-   "author": "Zo"
-  },
-  {
-   "name": "zo-research-topic",
-   "category": "research",
-   "description": "Use Zo to research any topic comprehensively and write a report.",
-   "author": "Zo"
-  },
-  {
-   "name": "find-missed-connections",
-   "category": "utilities",
-   "description": "Finds recent missed connections posts from Craigslist and gives you the highlights",
-   "author": "0.zo.computer"
-  },
-  {
-   "name": "generate-custom-qr-code",
-   "category": "utilities",
-   "description": "Generates a QR code from any URL, and optionally overlays a custom image in the center",
-   "author": "hatsunemiku.zo.computer"
-  },
-  {
-   "name": "just-fucking-cancel",
-   "category": "utilities",
-   "description": "Analyze bank transaction CSVs to find recurring charges, categorize subscriptions, and cancel what you don't need. Use when user says \"cancel subscriptions\", \"audit subscriptions\", \"find recurring charges\", or \"what am I paying for\". Supports Apple Card, Chase, Mint, and generic CSV formats. Outputs",
-   "author": "Clawdbot"
-  },
-  {
-   "name": "minecraft-server",
-   "category": "utilities",
-   "description": "Set up, configure, and manage a Minecraft Java Edition server on Zo Computer. Use when the user wants to run a Minecraft server, change server settings, manage whitelists/ops, or check server status.",
-   "author": "hatsunemiku.zo.computer"
-  },
-  {
-   "name": "nbaboxscore",
-   "category": "utilities",
-   "description": ">",
-   "author": "zmann.zo.computer"
-  },
-  {
-   "name": "plant-care-plan",
-   "category": "utilities",
-   "description": "Creates a comprehensive care guide for your specific plant",
-   "author": "hatsunemiku.zo.computer"
-  },
-  {
-   "name": "remove-photo-metadata",
-   "category": "utilities",
-   "description": "Strip all metadata from images for privacy",
-   "author": "ian.zo.computer"
-  },
-  {
-   "name": "shorten",
-   "category": "utilities",
-   "description": "Shorten URLs using is.gd (no auth required). Returns a permanent short link.",
-   "author": "Clawdbot"
-  },
-  {
-   "name": "text-commute-info",
-   "category": "utilities",
-   "description": "Gets your commute time and route options, then texts you the details",
-   "author": "ray.zo.computer"
-  },
-  {
-   "name": "weather",
-   "category": "utilities",
-   "description": "Get the current weather for any location",
-   "author": "Clawdbot"
-  },
-  {
-   "name": "zo-extract-text-from-image",
-   "category": "utilities",
-   "description": "Extract text from images, scanned documents, and PDFs using OCR",
-   "author": "Zo"
-  },
-  {
-   "name": "zo-file-share",
-   "category": "utilities",
-   "description": "Share files with email-gated access. Users must confirm their email before downloading. Includes a web UI for requesting access and a CLI for managing files and users.",
-   "author": "0.zo.computer"
-  },
-  {
-   "name": "zo-for-each-line",
-   "category": "utilities",
-   "description": "Processes every line of a file one by one, transforming or extracting information from each line",
-   "author": "Zo"
-  },
-  {
-   "name": "zo-resize-image",
-   "category": "utilities",
-   "description": "Resize images to specific dimensions or percentages",
-   "author": "Zo"
-  },
-  {
-   "name": "audio-sync-assembly",
-   "category": "video",
-   "description": "Build and revise FFmpeg-based video assemblies from scene renders and narration, including audio probing,",
-   "author": "zmann.zo.computer"
-  },
-  {
-   "name": "captions-and-music-bed",
-   "category": "video",
-   "description": "Generate, style, preview, and burn captions, and build music/percussion beds with ducking, loop/tail",
-   "author": "zmann.zo.computer"
-  },
-  {
-   "name": "cut-video",
-   "category": "video",
-   "description": "Tighten a long recording \u2014 remove silences, fillers, mistakes, and dead air while preserving laughs and",
-   "author": "zmann.zo.computer"
-  },
-  {
-   "name": "fal-audio",
-   "category": "video",
-   "description": "Text-to-speech and speech-to-text using fal.ai audio models. Use when the user requests \"Convert text to",
-   "author": "fal-ai"
-  },
-  {
-   "name": "fal-generate",
-   "category": "video",
-   "description": "Generate images and videos using fal.ai AI models with queue support. Use when the user requests \"Generate",
-   "author": "fal-ai"
-  },
-  {
-   "name": "fal-lip-sync",
-   "category": "video",
-   "description": "Create talking head videos, lip sync audio to video, and animate portraits with expressions. Use when the",
-   "author": "fal-ai"
-  },
-  {
-   "name": "fal-realtime",
-   "category": "video",
-   "description": "Real-time and streaming AI image generation \u2014 instant results for interactive use. Use when the user",
-   "author": "fal-ai"
-  },
-  {
-   "name": "fal-video-edit",
-   "category": "video",
-   "description": "Edit existing videos using AI \u2014 remix style, edit content, upscale resolution, remove background, or add",
-   "author": "fal-ai"
-  },
-  {
-   "name": "fal-vision",
-   "category": "video",
-   "description": "Analyze images using AI \u2014 segment objects, detect objects, extract text (OCR), describe images, ask",
-   "author": "fal-ai"
-  },
-  {
-   "name": "manim-composer",
-   "category": "video",
-   "description": "|",
-   "author": "Adithya-s-k"
-  },
-  {
-   "name": "motion-generate",
-   "category": "video",
-   "description": "Generate polished AI videos via Mosaic Motion's REST API (motion.so). Use when Dan says \"make a Motion",
-   "author": "zmann.zo.computer"
-  },
-  {
-   "name": "remotion-best-practices",
-   "category": "video",
-   "description": "Deep reference for Remotion composition, animation, sequencing, audio, captions, assets, and troubleshooting.",
-   "author": "zmann.zo.computer"
-  },
-  {
-   "name": "remotion-setup",
-   "category": "video",
-   "description": "Install, configure, and maintain Remotion projects with reproducible setup and upgrade workflows.",
-   "author": "zmann.zo.computer"
-  },
-  {
-   "name": "remotion-studio",
-   "category": "video",
-   "description": "Execute Remotion workflows across projects: setup, best-practice guidance, local editor UI, preview, and rendering.",
-   "author": "zmann.zo.computer"
-  },
-  {
-   "name": "render-qa-and-surgical-changes",
-   "category": "video",
-   "description": "Verify final video renders and make tiny safe edits without breaking approved sync, including proof frames,",
-   "author": "zmann.zo.computer"
-  },
-  {
-   "name": "scene-continuity-and-transitions",
-   "category": "video",
-   "description": "Preserve visual continuity across video scenes with previous-final-frame starts, camera swipes, carryover",
-   "author": "zmann.zo.computer"
-  },
-  {
-   "name": "video-frames",
-   "category": "video",
-   "description": "Extract frames or short clips from videos using ffmpeg.",
-   "author": "Clawdbot"
-  },
-  {
-   "name": "video-intake-and-storyboard",
-   "category": "video",
-   "description": "Convert rough video prompts, scripts, reference images, and edit notes into decision-complete scene specs",
-   "author": "zmann.zo.computer"
-  }
- ]
+  "count": 207,
+  "skills": [
+    {
+      "name": "brainstorming",
+      "category": "ai-efficiency",
+      "description": "You MUST use this before any creative work - creating features, building components, adding functionality, or modifying behavior. Explores user intent, requirements and design before implementation.",
+      "author": "Obra"
+    },
+    {
+      "name": "close-spec",
+      "category": "ai-efficiency",
+      "description": "When a spec under specs/<feature>/ is done shipping (a write-spec build, or any planned task that produced a spec), archive it to specs/done/ and rewrite it from a build-plan into a durable rationale \u2014 the why, the principles, the invariants \u2014 pointing back to the real code for the how. Use when implementation has landed and the plan no longer matches what shipped, or the user says a feature/spec is finished. Pairs with [write-spec](../write-spec/SKILL.md) (the plan this closes).",
+      "author": "Classified AI"
+    },
+    {
+      "name": "code-degunker",
+      "category": "ai-efficiency",
+      "description": "Identify and fix AI-generated code anti-patterns: incomplete implementations, TODO placeholders, over-engineering, hallucinated APIs, missing error handling, over-defensive code, security vulnerabilities, performance anti-patterns, code bloat, type workarounds, dead code, magic numbers, inconsistent patterns, and poor architecture. Use when asked to \"clean up\", \"degunk\", \"deslop\", review, audit, or harden code. Also triggers on \"is this code any good\", \"make this production-ready\", \"this feels AI-generated\", \"fix the code smell\", \"remove the slop\", or \"this code is a mess\". Covers 27 anti-patterns across architecture, logic, security, performance, completeness, style, and reliability. Supports full file review and branch diff review modes.",
+      "author": "skeletorjs"
+    },
+    {
+      "name": "eval-skills",
+      "category": "ai-efficiency",
+      "description": "Eval and improve a skill against golden cases \u2014 run the target skill blind in a fresh, context-free subagent on each example input, grade the artifact against the expected outcome, and let the gaps drive the edits. Use when the user wants to test/eval/improve/harden a skill, says \"this skill keeps producing X / keeps missing Y\", or hands a skill plus example input\u2192expected-output pairs. Pairs with [write-skills](../write-skills/SKILL.md) (the authoring principles every fix obeys).",
+      "author": "Classified AI"
+    },
+    {
+      "name": "explore-unknowns",
+      "category": "ai-efficiency",
+      "description": "Guide the user through a quadrant walk that maps the unknowns of a task \u2014 open by listing the known knowns, then work through known unknowns, unknown knowns, and unknown unknowns one stage at a time, ending with a complete four-quadrant map in the user's hands. Use when a request is ambiguous or underspecified, the codebase or domain is unfamiliar, the user will \"know it when they see it\", a reference implementation must be understood before porting, mid-build deviations from the plan need capturing, or a finished change needs buy-in or verified understanding before merge. Pairs with [write-spec](../write-spec/SKILL.md) \u2014 walk the quadrants to burn off fog before slicing, and feed the finished map into the spec.",
+      "author": "Classified AI"
+    },
+    {
+      "name": "implement-spec",
+      "category": "ai-efficiency",
+      "description": "Implement an existing spec through committed passes. Use for long or multi-pass specs that need maintenance checkpoints to periodically clean code, handoffs, priorities, and plan bloat before drift accumulates.",
+      "author": "Classified AI"
+    },
+    {
+      "name": "plan-code-changes",
+      "category": "ai-efficiency",
+      "description": "Plan out code changes using a plan file.",
+      "author": "0.zo.computer"
+    },
+    {
+      "name": "premortem",
+      "category": "ai-efficiency",
+      "description": "Run a premortem on any plan, launch, product, hire, strategy, or decision. Assumes it already failed 6 months from now and works backward to find every reason why. Produces a revised plan with blind spots exposed. MANDATORY TRIGGERS: 'premortem this', 'premortem my', 'run a premortem', 'what could kill this', 'future-proof this', 'stress test this plan', 'what am i missing here', 'find the blind spots'. STRONG TRIGGERS: 'what could go wrong', 'am i missing anything', 'poke holes in this', 'where will this break', 'devil's advocate this'. Do NOT trigger on simple feedback requests, factual questions, or LLM Council requests. DO trigger when someone has a plan or commitment where the cost of being wrong is high.",
+      "author": "Classified AI"
+    },
+    {
+      "name": "prompt-improver",
+      "category": "ai-efficiency",
+      "description": "Improve and optimize prompts for Claude using Anthropic's official best practices and the 5-Element Persona Framework. Use when asked to improve, refine, optimize, or review a prompt. Also triggers on requests to make prompts clearer, more effective, better structured, or to get better/more realistic outputs from Claude. Covers Claude 4.x-specific techniques, persona engineering, constraint-based prompting, and structured outputs.",
+      "author": "skeletorjs"
+    },
+    {
+      "name": "refactor-clean",
+      "category": "ai-efficiency",
+      "description": "Refactor cleanly instead of layering sediment. Use when a change reveals duplicated concepts, local adapters, obsolete owners, compatibility wrappers, parallel abstractions, or \"just tack this on\" pressure in any code area.",
+      "author": "Classified AI"
+    },
+    {
+      "name": "self-improvement",
+      "category": "ai-efficiency",
+      "description": "AI self-improvement and reflection skill. Run weekly or on-demand to audit capabilities, identify gaps, evolve identity documents, prune stale skills/memory, and propose new capabilities. Triggers on schedule, when the user asks for a self-audit, or when the AI notices recurring limitations.",
+      "author": "skeletorjs"
+    },
+    {
+      "name": "share-skill",
+      "category": "ai-efficiency",
+      "description": "Safely prepare and guide skills for contribution to the Zo Skills Registry. Reviews code for secrets, validates SKILL.md format, checks for suspicious patterns, and provides clear next steps for community or external skill submissions.",
+      "author": "rc2.zo.computer"
+    },
+    {
+      "name": "simplify",
+      "category": "ai-efficiency",
+      "description": "Simplifies and refines code for clarity, consistency, and maintainability while preserving all functionality. Focuses on recently modified code unless instructed otherwise. Run after writing or modifying code to clean it up.",
+      "author": "skeletorjs"
+    },
+    {
+      "name": "skill-creator",
+      "category": "ai-efficiency",
+      "description": "Guide for creating effective skills. This skill should be used when users want to create a new skill (or update an existing skill) that extends Claude's capabilities with specialized knowledge, workflows, or tool integrations.",
+      "author": "Anthropic"
+    },
+    {
+      "name": "supermemory",
+      "category": "ai-efficiency",
+      "description": "Long-term memory for AI agents via Supermemory's knowledge graph API. Primary CLI is `npx supermemory`; companion script covers conversation ingestion and memory listing not yet in the official CLI.",
+      "author": "skeletorjs"
+    },
+    {
+      "name": "template-skill",
+      "category": "ai-efficiency",
+      "description": "A starter template for writing your own skill. Copy this folder, fill in the name and description, and follow the inline structure to teach your assistant a new repeatable workflow.",
+      "author": "Anthropic"
+    },
+    {
+      "name": "write-skills",
+      "category": "ai-efficiency",
+      "description": "Create or revise agent skills. Use when adding a new skill file, renaming a skill, simplifying an existing skill, improving trigger descriptions, or deciding what belongs in a skill versus references, scripts, assets, or ordinary docs.",
+      "author": "Classified AI"
+    },
+    {
+      "name": "write-spec",
+      "category": "ai-efficiency",
+      "description": "Break large features into independently verifiable, human-reviewable slices under specs/<feature>/. Use for risky or multi-step feature work that needs upfront questioning, API seams, browser-playable checkpoints, HTML visualizations, screenshot gates, staged implementation plans, recursive fog-of-war reslicing, or proactive research into reference implementations/best practices before slicing. Pairs with your project's verification harness and screenshot gates (the browser checkpoints), [refactor-clean](../refactor-clean/SKILL.md) (review the materialized spec so the plan describes one-owner architecture, not the feature bolted on), [screenshot-critique](../../visual/screenshot-critique/SKILL.md) and [compare-screenshots](../../visual/compare-screenshots/SKILL.md) (the visual gates), and a code-review pass (audit each slice before it lands).",
+      "author": "Classified AI"
+    },
+    {
+      "name": "ab-test-setup",
+      "category": "content-and-social",
+      "description": "When the user wants to plan, design, or implement an A/B test or experiment. Also use when the user mentions \"A/B test,\" \"split test,\" \"experiment,\" \"test this change,\" \"variant copy,\" \"multivariate test,\" or \"hypothesis.\" For tracking implementation, see analytics-tracking.",
+      "author": "Coreyhaines31"
+    },
+    {
+      "name": "analytics-tracking",
+      "category": "content-and-social",
+      "description": "When the user wants to set up, improve, or audit analytics tracking and measurement. Also use when the user mentions \"set up tracking,\" \"GA4,\" \"Google Analytics,\" \"conversion tracking,\" \"event tracking,\" \"UTM parameters,\" \"tag manager,\" \"GTM,\" \"analytics implementation,\" or \"tracking plan.\" For A/B test measurement, see ab-test-setup.",
+      "author": "Coreyhaines31"
+    },
+    {
+      "name": "competitor-alternatives",
+      "category": "content-and-social",
+      "description": "When the user wants to create competitor comparison or alternative pages for SEO and sales enablement. Also use when the user mentions \"alternative page,\" \"vs page,\" \"competitor comparison,\" \"comparison page,\" \"[Product] vs [Product],\" \"[Product] alternative,\" or \"competitive landing pages.\" Covers four formats: singular alternative, plural alternatives, you vs competitor, and competitor vs competitor. Emphasizes deep research, modular content architecture, and varied section types beyond feature tables.",
+      "author": "Coreyhaines31"
+    },
+    {
+      "name": "content-matrix",
+      "category": "content-and-social",
+      "description": "Generate 32+ LinkedIn post ideas in a single table by pairing the user's content pillars with 8 proven content formats. Based on the Justin Welsh content matrix. Use this skill whenever the user says \"give me post ideas\", \"content matrix\", \"what should I post about\", \"generate post ideas\", \"content ideation\", or \"map out my content for the month\". Pulls from about-me.md and voice.md if they exist, otherwise asks for pillars and context.",
+      "author": "Classified AI"
+    },
+    {
+      "name": "copy-editing",
+      "category": "content-and-social",
+      "description": "When the user wants to edit, review, or improve existing marketing copy. Also use when the user mentions 'edit this copy,' 'review my copy,' 'copy feedback,' 'proofread,' 'polish this,' 'make this better,' or 'copy sweep.' This skill provides a systematic approach to editing marketing copy through multiple focused passes.",
+      "author": "Coreyhaines31"
+    },
+    {
+      "name": "copywriting",
+      "category": "content-and-social",
+      "description": "When the user wants to write, rewrite, or improve marketing copy for any page \u2014 including homepage, landing pages, pricing pages, feature pages, about pages, or product pages. Also use when the user says \"write copy for,\" \"improve this copy,\" \"rewrite this page,\" \"marketing copy,\" \"headline help,\" or \"CTA copy.\" For email copy, see email-sequence. For popup copy, see popup-cro.",
+      "author": "Coreyhaines31"
+    },
+    {
+      "name": "dating-profile",
+      "category": "content-and-social",
+      "description": "Creates an ideal dating profile by writing your bio and choosing the best photos in the right order",
+      "author": "ray.zo.computer"
+    },
+    {
+      "name": "email-sequence",
+      "category": "content-and-social",
+      "description": "When the user wants to create or optimize an email sequence, drip campaign, automated email flow, or lifecycle email program. Also use when the user mentions \"email sequence,\" \"drip campaign,\" \"nurture sequence,\" \"onboarding emails,\" \"welcome sequence,\" \"re-engagement emails,\" \"email automation,\" or \"lifecycle emails.\" For in-app onboarding, see onboarding-cro.",
+      "author": "Coreyhaines31"
+    },
+    {
+      "name": "form-cro",
+      "category": "content-and-social",
+      "description": "When the user wants to optimize any form that is NOT signup/registration \u2014 including lead capture forms, contact forms, demo request forms, application forms, survey forms, or checkout forms. Also use when the user mentions \"form optimization,\" \"lead form conversions,\" \"form friction,\" \"form fields,\" \"form completion rate,\" or \"contact form.\" For signup/registration forms, see signup-flow-cro. For popups containing forms, see popup-cro.",
+      "author": "Coreyhaines31"
+    },
+    {
+      "name": "free-tool-strategy",
+      "category": "content-and-social",
+      "description": "When the user wants to plan, evaluate, or build a free tool for marketing purposes \u2014 lead generation, SEO value, or brand awareness. Also use when the user mentions \"engineering as marketing,\" \"free tool,\" \"marketing tool,\" \"calculator,\" \"generator,\" \"interactive tool,\" \"lead gen tool,\" \"build a tool for leads,\" or \"free resource.\" This skill bridges engineering and marketing \u2014 useful for founders and technical marketers.",
+      "author": "Coreyhaines31"
+    },
+    {
+      "name": "hook-generator",
+      "category": "content-and-social",
+      "description": "Generate 6 clickbait-style LinkedIn hook variations for any topic. Two-line hooks built on the formula: a 40-char opening line, a 40-char bold contrast line. Includes digits, \"How I\" or \"I\" statements, and metrics. Use this skill whenever the user says \"write me hooks\", \"hook ideas\", \"generate hooks\", \"I need a hook for a post about...\", or pastes a topic and asks for openers. Fast output, no preamble.",
+      "author": "Classified AI"
+    },
+    {
+      "name": "humanizer",
+      "category": "content-and-social",
+      "description": "Detect and fix AI writing patterns. Use when writing outbound content like emails, proposals, blog posts, client deliverables, or any external-facing writing. Also use when asked to humanize, polish, or de-AI text.",
+      "author": "skeletorjs"
+    },
+    {
+      "name": "internal-comms",
+      "category": "content-and-social",
+      "description": "A set of resources to help me write all kinds of internal communications, using the formats that my company likes to use. Claude should use this skill whenever asked to write some sort of internal communications (status reports, leadership updates, 3P updates, company newsletters, FAQs, incident reports, project updates, etc.).",
+      "author": "Anthropic"
+    },
+    {
+      "name": "launch-strategy",
+      "category": "content-and-social",
+      "description": "When the user wants to plan a product launch, feature announcement, or release strategy. Also use when the user mentions 'launch,' 'Product Hunt,' 'feature release,' 'announcement,' 'go-to-market,' 'beta launch,' 'early access,' 'waitlist,' or 'product update.' This skill covers phased launches, channel strategy, and ongoing launch momentum.",
+      "author": "Coreyhaines31"
+    },
+    {
+      "name": "marketing-ideas",
+      "category": "content-and-social",
+      "description": "When the user needs marketing ideas, inspiration, or strategies for their SaaS or software product. Also use when the user asks for 'marketing ideas,' 'growth ideas,' 'how to market,' 'marketing strategies,' 'marketing tactics,' 'ways to promote,' or 'ideas to grow.' This skill provides 140 proven marketing approaches organized by category.",
+      "author": "Coreyhaines31"
+    },
+    {
+      "name": "marketing-psychology",
+      "category": "content-and-social",
+      "description": "When the user wants to apply psychological principles, mental models, or behavioral science to marketing. Also use when the user mentions 'psychology,' 'mental models,' 'cognitive bias,' 'persuasion,' 'behavioral science,' 'why people buy,' 'decision-making,' or 'consumer behavior.' This skill provides 70+ mental models organized for marketing application.",
+      "author": "Coreyhaines31"
+    },
+    {
+      "name": "newsletter-voice",
+      "category": "content-and-social",
+      "description": "Build newsletter writing instructions inside a Cowork project. Runs after voice-builder. Produces newsletter-voice.md, a single file Claude references when drafting newsletters in the user's voice. Works with or without existing newsletter samples: if the user has past issues, the skill analyses them; if not, the skill offers 6 archetypes tuned to the user's voice. Trigger whenever the user says \"build my newsletter voice\", \"learn my newsletter style\", \"set up my newsletter system\", \"train on my newsletters\", \"newsletter onboarding\", or drops newsletter samples into chat asking for an analysis. Requires voice-builder to have run first: the skill needs voice.md and about-me.md in the project to work.",
+      "author": "Classified AI"
+    },
+    {
+      "name": "niche-research",
+      "category": "content-and-social",
+      "description": "Surface the 20 most relevant stories in a niche from the last 7 days using Claude for Chrome. Verified dates, real links, shareable angles. Claude drives the browser to scroll Reddit, X and run Google searches \u2014 exactly like a human researcher would. Use this skill whenever the user says \"research my niche\", \"what's trending\", \"find stories\", \"this week's news\", \"content research\", or drops a niche and asks what's happening in it. Requires the Claude for Chrome extension to be enabled for live browsing.",
+      "author": "Classified AI"
+    },
+    {
+      "name": "onboarding-cro",
+      "category": "content-and-social",
+      "description": "When the user wants to optimize post-signup onboarding, user activation, first-run experience, or time-to-value. Also use when the user mentions \"onboarding flow,\" \"activation rate,\" \"user activation,\" \"first-run experience,\" \"empty states,\" \"onboarding checklist,\" \"aha moment,\" or \"new user experience.\" For signup/registration optimization, see signup-flow-cro. For ongoing email sequences, see email-sequence.",
+      "author": "Coreyhaines31"
+    },
+    {
+      "name": "page-cro",
+      "category": "content-and-social",
+      "description": "When the user wants to optimize, improve, or increase conversions on any marketing page \u2014 including homepage, landing pages, pricing pages, feature pages, or blog posts. Also use when the user says \"CRO,\" \"conversion rate optimization,\" \"this page isn't converting,\" \"improve conversions,\" or \"why isn't this page working.\" For signup/registration flows, see signup-flow-cro. For post-signup activation, see onboarding-cro. For forms outside of signup, see form-cro. For popups/modals, see popup-cro.",
+      "author": "Coreyhaines31"
+    },
+    {
+      "name": "paid-ads",
+      "category": "content-and-social",
+      "description": "When the user wants help with paid advertising campaigns on Google Ads, Meta (Facebook/Instagram), LinkedIn, Twitter/X, or other ad platforms. Also use when the user mentions 'PPC,' 'paid media,' 'ad copy,' 'ad creative,' 'ROAS,' 'CPA,' 'ad campaign,' 'retargeting,' or 'audience targeting.' This skill covers campaign strategy, ad creation, audience targeting, and optimization.",
+      "author": "Coreyhaines31"
+    },
+    {
+      "name": "paywall-upgrade-cro",
+      "category": "content-and-social",
+      "description": "When the user wants to create or optimize in-app paywalls, upgrade screens, upsell modals, or feature gates. Also use when the user mentions \"paywall,\" \"upgrade screen,\" \"upgrade modal,\" \"upsell,\" \"feature gate,\" \"convert free to paid,\" \"freemium conversion,\" \"trial expiration screen,\" \"limit reached screen,\" \"plan upgrade prompt,\" or \"in-app pricing.\" Distinct from public pricing pages (see page-cro) \u2014 this skill focuses on in-product upgrade moments where the user has already experienced value.",
+      "author": "Coreyhaines31"
+    },
+    {
+      "name": "pinned-comment",
+      "category": "content-and-social",
+      "description": "Write LinkedIn pinned comments AND image generation prompts in Charlie Hills' signature style. Use when Charlie or his team asks for a pinned comment, pin comment, or first comment for a LinkedIn post. ALWAYS produce the image prompt FIRST, then caption it with the 4-line comment. Output both together unless told otherwise.",
+      "author": "Classified AI"
+    },
+    {
+      "name": "popup-cro",
+      "category": "content-and-social",
+      "description": "When the user wants to create or optimize popups, modals, overlays, slide-ins, or banners for conversion purposes. Also use when the user mentions \"exit intent,\" \"popup conversions,\" \"modal optimization,\" \"lead capture popup,\" \"email popup,\" \"announcement banner,\" or \"overlay.\" For forms outside of popups, see form-cro. For general page conversion optimization, see page-cro.",
+      "author": "Coreyhaines31"
+    },
+    {
+      "name": "post-formatter",
+      "category": "content-and-social",
+      "description": "Turn a topic into a ready-to-publish LinkedIn post using PAS, AIDA, BAB, STAR, or SLAY frameworks. 200 to 250 words, 20 lines max, mobile-formatted with blank lines between sentences. Use this skill whenever the user says \"format this as a post\", \"turn this into a LinkedIn post\", \"write it as PAS\" or any named framework, or wants a properly structured post from a topic. Different from post-writer: post-formatter applies a strict framework. post-writer drafts in the user's voice without framework constraints.",
+      "author": "Classified AI"
+    },
+    {
+      "name": "post-scorer",
+      "category": "content-and-social",
+      "description": "Score a LinkedIn post using real performance data. Pulls the user's own post history via Apify (or uses cached data) to identify what actually performs, then scores the draft against those patterns. Use this skill whenever the user says \"score my post\", \"review my post\", \"rate this post\", \"give me feedback\", \"how good is this post\", or pastes a LinkedIn post and asks for critique. Scores against real data, not generic advice. Designed for live scoring at events and everyday post review.",
+      "author": "Classified AI"
+    },
+    {
+      "name": "post-writer",
+      "category": "content-and-social",
+      "description": "Write LinkedIn posts that match the user's voice system (about-me.md and voice.md). Use this skill whenever the user says \"write a post\", \"draft a post\", \"LinkedIn post\", \"post about [topic]\", \"content idea\", or wants help writing any LinkedIn content. Also trigger when the user pastes a context dump (notes, transcripts, bullet points) and wants it turned into a post. Always references the voice files in the project before writing. Always outputs the final post in a code block.",
+      "author": "Classified AI"
+    },
+    {
+      "name": "pricing-strategy",
+      "category": "content-and-social",
+      "description": "When the user wants help with pricing decisions, packaging, or monetization strategy. Also use when the user mentions 'pricing,' 'pricing tiers,' 'freemium,' 'free trial,' 'packaging,' 'price increase,' 'value metric,' 'Van Westendorp,' 'willingness to pay,' or 'monetization.' This skill covers pricing research, tier structure, and packaging strategy.",
+      "author": "Coreyhaines31"
+    },
+    {
+      "name": "profile-optimizer",
+      "category": "content-and-social",
+      "description": "Rebuild a LinkedIn profile for maximum conversions. Produces new headline options, about section, experience section, featured section strategy, and 4 image generation prompts (banner, profile picture, 2 featured tiles). Use this skill whenever the user says \"optimize my profile\", \"fix my LinkedIn\", \"rewrite my headline\", \"profile review\", \"LinkedIn audit\", \"rebuild my profile\", or wants help with any part of their LinkedIn profile. Also trigger when the user uploads a LinkedIn profile PDF or screenshot for review.",
+      "author": "Classified AI"
+    },
+    {
+      "name": "programmatic-seo",
+      "category": "content-and-social",
+      "description": "When the user wants to create SEO-driven pages at scale using templates and data. Also use when the user mentions \"programmatic SEO,\" \"template pages,\" \"pages at scale,\" \"directory pages,\" \"location pages,\" \"[keyword] + [city] pages,\" \"comparison pages,\" \"integration pages,\" or \"building many pages for SEO.\" For auditing existing SEO issues, see seo-audit.",
+      "author": "Coreyhaines31"
+    },
+    {
+      "name": "quote-post",
+      "category": "content-and-social",
+      "description": "Two-step workflow for creating quote posts on LinkedIn. Claude generates viral motivational quotes to accompany a caption, then produces a Gemini prompt that recreates a reference image with the chosen quote baked in. Use this skill whenever the user says \"quote post\", \"quote graphic\", \"motivational post\", \"build me a quote\", or wants a low-effort high-engagement LinkedIn graphic. Optimised for LinkedIn's employee and early-career audience, which skews toward motivational content.",
+      "author": "Classified AI"
+    },
+    {
+      "name": "reels-scripting",
+      "category": "content-and-social",
+      "description": "Turn a reference Instagram Reel into a script for your own Reel, tuned to your voice and repurposed from your newsletter content. Takes a Reel URL or Notion reference link, uses Apify to scrape the video, sends it to Gemini 2.5 Flash for full transcript + hook + structure analysis, then writes a new script applying the same patterns to your newsletter topic. Use this skill whenever the user says \"script a reel\", \"reels scripting\", \"turn this into a reel\", pastes an Instagram Reel URL, or references their Notion outlier reels database. Requires APIFY_API_TOKEN and GOOGLE_AI_API_KEY environment variables.",
+      "author": "Classified AI"
+    },
+    {
+      "name": "referral-program",
+      "category": "content-and-social",
+      "description": "When the user wants to create, optimize, or analyze a referral program, affiliate program, or word-of-mouth strategy. Also use when the user mentions 'referral,' 'affiliate,' 'ambassador,' 'word of mouth,' 'viral loop,' 'refer a friend,' or 'partner program.' This skill covers program design, incentive structure, and growth optimization.",
+      "author": "Coreyhaines31"
+    },
+    {
+      "name": "schema-markup",
+      "category": "content-and-social",
+      "description": "When the user wants to add, fix, or optimize schema markup and structured data on their site. Also use when the user mentions \"schema markup,\" \"structured data,\" \"JSON-LD,\" \"rich snippets,\" \"schema.org,\" \"FAQ schema,\" \"product schema,\" \"review schema,\" or \"breadcrumb schema.\" For broader SEO issues, see seo-audit.",
+      "author": "Coreyhaines31"
+    },
+    {
+      "name": "seo-audit",
+      "category": "content-and-social",
+      "description": "When the user wants to audit, review, or diagnose SEO issues on their site. Also use when the user mentions \"SEO audit,\" \"technical SEO,\" \"why am I not ranking,\" \"SEO issues,\" \"on-page SEO,\" \"meta tags review,\" or \"SEO health check.\" For building pages at scale to target keywords, see programmatic-seo. For adding structured data, see schema-markup.",
+      "author": "Coreyhaines31"
+    },
+    {
+      "name": "signup-flow-cro",
+      "category": "content-and-social",
+      "description": "When the user wants to optimize signup, registration, account creation, or trial activation flows. Also use when the user mentions \"signup conversions,\" \"registration friction,\" \"signup form optimization,\" \"free trial signup,\" \"reduce signup dropoff,\" or \"account creation flow.\" For post-signup onboarding, see onboarding-cro. For lead capture forms (not account creation), see form-cro.",
+      "author": "Coreyhaines31"
+    },
+    {
+      "name": "social-content",
+      "category": "content-and-social",
+      "description": "When the user wants help creating, scheduling, or optimizing social media content for LinkedIn, Twitter/X, Instagram, TikTok, Facebook, or other platforms. Also use when the user mentions 'LinkedIn post,' 'Twitter thread,' 'social media,' 'content calendar,' 'social scheduling,' 'engagement,' or 'viral content.' This skill covers content creation, repurposing, and platform-specific strategies.",
+      "author": "Coreyhaines31"
+    },
+    {
+      "name": "tweetscape-narrator",
+      "category": "content-and-social",
+      "description": "David Attenborough-style nature documentary narration of social media feeds. Fetches posts from Bluesky, analyzes the \"digital ecosystem,\" generates narration, synthesizes voice with ElevenLabs, and renders a documentary-style video with Remotion.",
+      "author": "rc2.zo.computer"
+    },
+    {
+      "name": "doc-coauthoring",
+      "category": "decks-and-docs",
+      "description": "Guide users through a structured workflow for co-authoring documentation. Use when user wants to write documentation, proposals, technical specs, decision docs, or similar structured content. This workflow helps users efficiently transfer context, refine content through iteration, and verify the doc works for readers. Trigger when user mentions writing docs, creating proposals, drafting specs, or similar documentation tasks.",
+      "author": "Anthropic"
+    },
+    {
+      "name": "impress-deck",
+      "category": "decks-and-docs",
+      "description": "Generate cinematic Prezi-style presentation decks using impress.js with zoom, pan, rotate, and 3D effects. Deploy to zo.space as a shareable URL. Use when the user wants to create a pitch deck, presentation, or interactive slide deck.",
+      "author": "Classified AI"
+    },
+    {
+      "name": "json-canvas",
+      "category": "decks-and-docs",
+      "description": "Create and edit JSON Canvas files (.canvas) with nodes, edges, groups, and connections. Use when working with .canvas files, creating visual canvases, mind maps, flowcharts, or when the user mentions Canvas files in Obsidian.",
+      "author": "Classified AI"
+    },
+    {
+      "name": "obsidian-markdown",
+      "category": "decks-and-docs",
+      "description": "Create and edit Obsidian Flavored Markdown with wikilinks, embeds, callouts, properties, and other Obsidian-specific syntax. Use when working with .md files in Obsidian, or when the user mentions wikilinks, callouts, frontmatter, tags, embeds, or Obsidian notes.",
+      "author": "Classified AI"
+    },
+    {
+      "name": "pdf",
+      "category": "decks-and-docs",
+      "description": "Comprehensive PDF manipulation toolkit for extracting text and tables, creating new PDFs, merging/splitting documents, and handling forms. When Claude needs to fill in a PDF form or programmatically process, generate, or analyze PDF documents at scale.",
+      "author": "Anthropic"
+    },
+    {
+      "name": "revealjs-presentation",
+      "category": "decks-and-docs",
+      "description": "Build interactive HTML slide presentations using Reveal.js + Chart.js. Use when asked to create a slide deck, pitch deck, presentation, or slideshow. Creates a single self-contained .html file with animations, charts, and polished UI. Can also publish presentations directly to zo.space as live page routes.",
+      "author": "skeletorjs.zo.computer"
+    },
+    {
+      "name": "slidev-deck",
+      "category": "decks-and-docs",
+      "description": "Build animated, branded Slidev decks from proposal content and export to PDF/SPA for sharing.",
+      "author": "Classified AI"
+    },
+    {
+      "name": "visual-explainer",
+      "category": "decks-and-docs",
+      "description": "Build polished visual explainers as zo.space pages. Creates public routes at /explain/[slug] and keeps each explainer shareable at a stable URL.",
+      "author": "skeletorjs"
+    },
+    {
+      "name": "zo-create-slidedeck",
+      "category": "decks-and-docs",
+      "description": "Turn any reference material into a polished, visually cohesive slide deck.",
+      "author": "rob.zo.computer"
+    },
+    {
+      "name": "zo-epub-to-markdown",
+      "category": "decks-and-docs",
+      "description": "Convert EPUB ebooks to Markdown format",
+      "author": "Zo"
+    },
+    {
+      "name": "zo-generate-pdf",
+      "category": "decks-and-docs",
+      "description": "Convert Markdown files to PDF format with professional formatting",
+      "author": "Zo"
+    },
+    {
+      "name": "zo-pdf-to-markdown",
+      "category": "decks-and-docs",
+      "description": "Convert PDF files to Markdown format",
+      "author": "Zo"
+    },
+    {
+      "name": "algorithmic-art",
+      "category": "design-and-image",
+      "description": "Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration. Use this when users request creating art using code, generative art, algorithmic art, flow fields, or particle systems. Create original algorithmic art rather than copying existing artists' work to avoid copyright violations.",
+      "author": "Anthropic"
+    },
+    {
+      "name": "brand-guidelines",
+      "category": "design-and-image",
+      "description": "Applies Anthropic's official brand colors and typography to any sort of artifact that may benefit from having Anthropic's look-and-feel. Use it when brand colors or style guidelines, visual formatting, or company design standards apply.",
+      "author": "Anthropic"
+    },
+    {
+      "name": "canvas-design",
+      "category": "design-and-image",
+      "description": "Create beautiful visual art in .png and .pdf documents using design philosophy. You should use this skill when the user asks to create a poster, piece of art, design, or other static piece. Create original visual designs, never copying existing artists' work to avoid copyright violations.",
+      "author": "Anthropic"
+    },
+    {
+      "name": "compare-screenshots",
+      "category": "design-and-image",
+      "description": "Compare screenshots to judge which image is less wrong, not to match a baseline. Use when a UI, game, document, render, chart, or generated asset needs objective visual telemetry, side-by-side inspection, crop/zoom review, or a fresh second opinion before accepting or rejecting a visual change.",
+      "author": "Classified AI"
+    },
+    {
+      "name": "fal-image-edit",
+      "category": "design-and-image",
+      "description": "Edit images using AI on fal.ai. Style transfer, object removal, background changes, and more. Use when the user requests \"Edit image\", \"Remove object\", \"Change background\", \"Apply style\", or similar image editing tasks.",
+      "author": "fal-ai"
+    },
+    {
+      "name": "fal-restore",
+      "category": "design-and-image",
+      "description": "Restore and fix image quality \u2014 deblur, denoise, dehaze, fix faces, restore documents. Use when the user requests \"Fix blurry image\", \"Remove noise\", \"Fix face\", \"Restore photo\", \"Enhance document\", \"Deblur\", \"Denoise\".",
+      "author": "fal-ai"
+    },
+    {
+      "name": "fal-upscale",
+      "category": "design-and-image",
+      "description": "Upscale and enhance image resolution using AI. Use when the user requests \"Upscale image\", \"Enhance resolution\", \"Make image bigger\", \"Increase quality\", or similar upscaling tasks.",
+      "author": "fal-ai"
+    },
+    {
+      "name": "gemini-carousel",
+      "category": "design-and-image",
+      "description": "Generate a branded slide-by-slide LinkedIn carousel using Gemini. Takes source content, builds a design brief, waits for approval, then outputs per-slide image generation prompts. 1080x1350 vertical format. Use this skill whenever the user says \"carousel\", \"build a carousel\", \"turn this into a carousel\", \"gemini carousel\", or wants multi-slide LinkedIn content. Always includes an approval gate between brief and image generation.",
+      "author": "Classified AI"
+    },
+    {
+      "name": "gemini-infographic",
+      "category": "design-and-image",
+      "description": "Generate the hand-drawn whiteboard infographic prompt that pulled 480k impressions across 3 posts. Takes source content (a post, newsletter, blog, research note) and returns a complete Gemini image generation prompt with a structured brief. Use this skill whenever the user says \"whiteboard infographic\", \"gemini infographic\", \"hand-drawn graphic\", \"turn this into a whiteboard\", or wants an AI-generated infographic for a post.",
+      "author": "Classified AI"
+    },
+    {
+      "name": "graphic-designer",
+      "category": "design-and-image",
+      "description": "Create LinkedIn post graphics. Decides between an HTML/CSS structured graphic or an AI-generated infographic based on the post content. Use this skill whenever the user says \"design a graphic\", \"create a visual\", \"make an image\", \"graphic for my post\", \"LinkedIn image\", or wants any visual content to pair with a LinkedIn post. Also trigger when the user finishes writing a post and wants a matching graphic.",
+      "author": "Classified AI"
+    },
+    {
+      "name": "humation-avatar",
+      "category": "design-and-image",
+      "description": "A Zo Computer skill for adding Humation avatars to agent products. It covers installing Humation npm packages into target projects, React integration, Core SVG rendering, static SVG generation, browser ESM usage in zo.space page routes, and legacy Humation SVG API compatibility.",
+      "author": "yusuke.zo.computer"
+    },
+    {
+      "name": "meme-factory",
+      "category": "design-and-image",
+      "description": "Generate memes using the memegen.link API. Use when users request memes, want to add humor to content, or need visual aids for social media. Supports 100+ popular templates with custom text and styling.",
+      "author": "Softaworks"
+    },
+    {
+      "name": "memelord",
+      "category": "design-and-image",
+      "description": "AI-powered meme generation, meme editing, and meme video generation using the Memelord API. Use when the user asks to generate a meme, edit a meme, create a video meme, or anything meme-related.",
+      "author": "Classified AI"
+    },
+    {
+      "name": "nano-banana-2",
+      "category": "design-and-image",
+      "description": "Generates AI images using the nano-banana CLI (Gemini 3.1 Flash default, Pro available). Handles multi-resolution (512-4K), aspect ratios, reference images for style transfer, green screen workflow for transparent assets, cost tracking, and exact dimension control. Use when asked to \"generate an image\", \"create a sprite\", \"make an asset\", \"generate artwork\", or any image generation task for UI mockups, game assets, videos, or marketing materials.",
+      "author": "Classified AI"
+    },
+    {
+      "name": "screenshot-critique",
+      "category": "design-and-image",
+      "description": "Use the unprimed sub agent as a second set of eyes before accepting visual work.",
+      "author": "Classified AI"
+    },
+    {
+      "name": "slack-gif-creator",
+      "category": "design-and-image",
+      "description": "Knowledge and utilities for creating animated GIFs optimized for Slack. Provides constraints, validation tools, and animation concepts. Use when users request animated GIFs for Slack like \"make me a GIF of X doing Y for Slack.\"",
+      "author": "Anthropic"
+    },
+    {
+      "name": "theme-factory",
+      "category": "design-and-image",
+      "description": "Toolkit for styling artifacts with a theme. These artifacts can be slides, docs, reportings, HTML landing pages, etc. There are 10 pre-set themes with colors/fonts that you can apply to any artifact that has been creating, or can generate a new theme on-the-fly.",
+      "author": "Anthropic"
+    },
+    {
+      "name": "youtube-thumbnail",
+      "category": "design-and-image",
+      "description": "Generate a branded YouTube thumbnail from a video title. Uses a reference photo of the creator, high-CTR thumbnail principles, and brand colours to produce a ready-to-generate image prompt for Gemini. Use this skill whenever the user says \"thumbnail\", \"youtube thumbnail\", \"build me a thumbnail\", or wants a video cover image before writing the script. The thumbnail-first workflow mirrors the graphic-first approach for LinkedIn: sells the video before anyone hears a word of the script.",
+      "author": "Classified AI"
+    },
+    {
+      "name": "cloudflare-crawl",
+      "category": "dev-and-web",
+      "description": "Crawl entire websites using Cloudflare's Browser Rendering /crawl API. Returns site content as Markdown, HTML, or structured JSON. Use when you need to ingest, scrape, or extract data from multiple pages of a website in one operation.",
+      "author": "Classified AI"
+    },
+    {
+      "name": "context7",
+      "category": "dev-and-web",
+      "description": "Fetch up-to-date, version-specific library documentation and code examples from Context7. Use this skill whenever the user asks about a specific programming library, framework, or API, or when writing code that depends on a library. Replaces stale training-data knowledge with live docs.",
+      "author": "skeletorjs"
+    },
+    {
+      "name": "defuddle",
+      "category": "dev-and-web",
+      "description": "Extract clean markdown content from web pages using Defuddle CLI, removing clutter and navigation to save tokens. Use instead of WebFetch when the user provides a URL to read or analyze, for online documentation, articles, blog posts, or any standard web page. Do NOT use for URLs ending in .md \u2014 those are already markdown, use WebFetch directly.",
+      "author": "Classified AI"
+    },
+    {
+      "name": "exe-dev",
+      "category": "dev-and-web",
+      "description": "Manage exe.dev VMs - create, list, delete, restart, rename, copy VMs and manage sharing/access. Use when the user wants to spin up new VMs, manage existing ones, or configure HTTP proxy sharing on exe.dev.",
+      "author": "davidj.zo.computer"
+    },
+    {
+      "name": "frontend-design",
+      "category": "dev-and-web",
+      "description": "Create distinctive, production-grade frontend interfaces with high design quality. Use this skill when the user asks to build web components, pages, artifacts, posters, or applications (examples include websites, landing pages, dashboards, React components, HTML/CSS layouts, or when styling/beautifying any web UI). Generates creative, polished code and UI design that avoids generic AI aesthetics.",
+      "author": "Anthropic"
+    },
+    {
+      "name": "github",
+      "category": "dev-and-web",
+      "description": "Interact with GitHub using the `gh` CLI. Use `gh issue`, `gh pr`, `gh run`, and `gh api` for issues, PRs, CI runs, and advanced queries.",
+      "author": "Clawdbot"
+    },
+    {
+      "name": "mcp-builder",
+      "category": "dev-and-web",
+      "description": "Guide for creating high-quality MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools. Use when building MCP servers to integrate external APIs or services, whether in Python (FastMCP) or Node/TypeScript (MCP SDK).",
+      "author": "Anthropic"
+    },
+    {
+      "name": "mcporter",
+      "category": "dev-and-web",
+      "description": "Work with MCP servers directly",
+      "author": "Clawdbot"
+    },
+    {
+      "name": "mcporter-setup",
+      "category": "dev-and-web",
+      "description": "Install MCPorter and configure MCP servers from scratch. Use when setting up MCP integration for the first time, adding new MCP servers, or troubleshooting MCP connectivity. Handles installation, configuration, secrets management, and connection testing.",
+      "author": "curtastrophe"
+    },
+    {
+      "name": "scrapling-official",
+      "category": "dev-and-web",
+      "description": "Scrape web pages using Scrapling with anti-bot bypass (like Cloudflare Turnstile), stealth headless browsing, spiders framework, adaptive scraping, and JavaScript rendering. Use when asked to scrape, crawl, or extract data from websites; web_fetch fails; the site has anti-bot protections; write Python code to scrape/crawl; or write spiders.",
+      "author": "Classified AI"
+    },
+    {
+      "name": "threejs-animation",
+      "category": "dev-and-web",
+      "description": "Three.js animation - keyframe animation, skeletal animation, morph targets, animation mixing. Use when animating objects, playing GLTF animations, creating procedural motion, or blending animations.",
+      "author": "Cloudai-x"
+    },
+    {
+      "name": "threejs-fundamentals",
+      "category": "dev-and-web",
+      "description": "Three.js scene setup, cameras, renderer, Object3D hierarchy, coordinate systems. Use when setting up 3D scenes, creating cameras, configuring renderers, managing object hierarchies, or working with transforms.",
+      "author": "Cloudai-x"
+    },
+    {
+      "name": "threejs-geometry",
+      "category": "dev-and-web",
+      "description": "Three.js geometry creation - built-in shapes, BufferGeometry, custom geometry, instancing. Use when creating 3D shapes, working with vertices, building custom meshes, or optimizing with instanced rendering.",
+      "author": "Cloudai-x"
+    },
+    {
+      "name": "threejs-interaction",
+      "category": "dev-and-web",
+      "description": "Three.js interaction - raycasting, controls, mouse/touch input, object selection. Use when handling user input, implementing click detection, adding camera controls, or creating interactive 3D experiences.",
+      "author": "Cloudai-x"
+    },
+    {
+      "name": "threejs-lighting",
+      "category": "dev-and-web",
+      "description": "Three.js lighting - light types, shadows, environment lighting. Use when adding lights, configuring shadows, setting up IBL, or optimizing lighting performance.",
+      "author": "Cloudai-x"
+    },
+    {
+      "name": "threejs-loaders",
+      "category": "dev-and-web",
+      "description": "Three.js asset loading - GLTF, textures, images, models, async patterns. Use when loading 3D models, textures, HDR environments, or managing loading progress.",
+      "author": "Cloudai-x"
+    },
+    {
+      "name": "threejs-materials",
+      "category": "dev-and-web",
+      "description": "Three.js materials - PBR, basic, phong, shader materials, material properties. Use when styling meshes, working with textures, creating custom shaders, or optimizing material performance.",
+      "author": "Cloudai-x"
+    },
+    {
+      "name": "threejs-postprocessing",
+      "category": "dev-and-web",
+      "description": "Three.js post-processing - EffectComposer, bloom, DOF, screen effects. Use when adding visual effects, color grading, blur, glow, or creating custom screen-space shaders.",
+      "author": "Cloudai-x"
+    },
+    {
+      "name": "threejs-shaders",
+      "category": "dev-and-web",
+      "description": "Three.js shaders - GLSL, ShaderMaterial, uniforms, custom effects. Use when creating custom visual effects, modifying vertices, writing fragment shaders, or extending built-in materials.",
+      "author": "Cloudai-x"
+    },
+    {
+      "name": "threejs-textures",
+      "category": "dev-and-web",
+      "description": "Three.js textures - texture types, UV mapping, environment maps, texture settings. Use when working with images, UV coordinates, cubemaps, HDR environments, or texture optimization.",
+      "author": "Cloudai-x"
+    },
+    {
+      "name": "tmux",
+      "category": "dev-and-web",
+      "description": "Remote-control tmux sessions for interactive CLIs by sending keystrokes and scraping pane output.",
+      "author": "Clawdbot"
+    },
+    {
+      "name": "web-artifacts-builder",
+      "category": "dev-and-web",
+      "description": "Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern frontend web technologies (React, Tailwind CSS, shadcn/ui). Use for complex artifacts requiring state management, routing, or shadcn/ui components - not for simple single-file HTML/JSX artifacts.",
+      "author": "Anthropic"
+    },
+    {
+      "name": "web-scraper",
+      "category": "dev-and-web",
+      "description": "Crawl and extract structured data from websites. Uses a tiered approach -- Zo built-ins for simple fetches, BeautifulSoup for custom parsing, Crawl4AI for deep crawls and LLM-powered extraction. Use when you need to scrape a website, extract structured data, or crawl multiple pages.",
+      "author": "skeletorjs"
+    },
+    {
+      "name": "webapp-testing",
+      "category": "dev-and-web",
+      "description": "Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend functionality, debugging UI behavior, capturing browser screenshots, and viewing browser logs.",
+      "author": "Anthropic"
+    },
+    {
+      "name": "zo-blog-site",
+      "category": "dev-and-web",
+      "description": "Build a blog or newsletter to share your thoughts.",
+      "author": "Zo"
+    },
+    {
+      "name": "zo-code-server-setup",
+      "category": "dev-and-web",
+      "description": "Sets up VS Code in your web browser so you can write and edit code from anywhere",
+      "author": "Zo"
+    },
+    {
+      "name": "zo-create-site",
+      "category": "dev-and-web",
+      "description": "Create a site hosted on your Zo server. Private by default, publish with a click.",
+      "author": "Zo"
+    },
+    {
+      "name": "zo-grafana-setup",
+      "category": "dev-and-web",
+      "description": "Sets up a visual dashboard to explore and analyze your system logs and data",
+      "author": "Zo"
+    },
+    {
+      "name": "zo-guestbook-site",
+      "category": "dev-and-web",
+      "description": "Build an interactive guestbook where visitors can leave messages.",
+      "author": "Zo"
+    },
+    {
+      "name": "zo-portfolio-site",
+      "category": "dev-and-web",
+      "description": "Build a personal portfolio to showcase your work and resume.",
+      "author": "Zo"
+    },
+    {
+      "name": "zo-space",
+      "category": "dev-and-web",
+      "description": "Comprehensive guide for building and managing zo.space routes (pages and APIs). Use this skill whenever creating, editing, or debugging zo.space routes. Covers architecture, available packages, patterns, limitations, and gotchas.",
+      "author": "skeletorjs"
+    },
+    {
+      "name": "zo-ssh-setup",
+      "category": "dev-and-web",
+      "description": "Sets up secure remote access to your Zo Computer so you can connect from anywhere",
+      "author": "Zo"
+    },
+    {
+      "name": "zopack",
+      "category": "dev-and-web",
+      "description": "Export and import zo.space route setups as shareable .zopack.md files. Use when the user wants to package their zo.space routes for sharing, or when they receive a .zopack.md file to deploy. Triggers on \"export my zo.space\", \"create a zopack\", \"import this zopack\", or any mention of .zopack.md files.",
+      "author": "skeletorjs.zo.computer"
+    },
+    {
+      "name": "zopenclaw",
+      "category": "dev-and-web",
+      "description": "Install and run OpenClaw on Zo Computer with Tailscale private networking, browser Control UI, and Zo MCP tools via mcporter. Use this skill whenever the user wants to set up OpenClaw on their Zo, install OpenClaw, run OpenClaw, host OpenClaw, or asks about getting OpenClaw running on Zo. Also use when the user mentions \"openclaw\", \"open claw\", \"personal agent framework\", or asks about running a persistent AI agent on their Zo with Telegram/Discord/WhatsApp access. Handles Tailscale setup, OpenClaw installation, mcporter setup for Zo tools, two-phase gateway bootstrap, reprovision-safe service registration, and health verification. NOT for general Zo agent setup (use heartbeats and native Zo skills instead).",
+      "author": "skeletorjs"
+    },
+    {
+      "name": "eightctl",
+      "category": "integrations",
+      "description": "Control Eight Sleep pods (status, temperature, alarms, schedules).",
+      "author": "Clawdbot"
+    },
+    {
+      "name": "lastfm",
+      "category": "integrations",
+      "description": "Access Last.fm listening history, music stats, and discovery. Query recent tracks, top artists/albums/tracks, loved tracks, similar artists, and global charts.",
+      "author": "Clawdbot"
+    },
+    {
+      "name": "moltbook",
+      "category": "integrations",
+      "description": "Post, reply, and engage on Moltbook, a social network for AI agents.",
+      "author": "Moltbot"
+    },
+    {
+      "name": "pitchfork-best-tracks",
+      "category": "integrations",
+      "description": "Finds the latest songs from Pitchfork's Best New Tracks and creates a Spotify playlist for you",
+      "author": "ian.zo.computer"
+    },
+    {
+      "name": "stripe-best-practices",
+      "category": "integrations",
+      "description": "Best practices for building a Stripe integrations",
+      "author": "Stripe"
+    },
+    {
+      "name": "trello",
+      "category": "integrations",
+      "description": "Work with Trello using your own Trello API key (free)",
+      "author": "Clawdbot"
+    },
+    {
+      "name": "vapi",
+      "category": "integrations",
+      "description": "Voice AI integration with Vapi. Enables inbound/outbound phone calls with AI voice agents that can check calendars and book appointments.",
+      "author": "anonymous"
+    },
+    {
+      "name": "zo-moonpay-auth",
+      "category": "integrations",
+      "description": "Set up the MoonPay CLI on Zo, authenticate the current user, and create or inspect local wallets. Use when MoonPay commands fail because the user is not logged in, when a wallet is missing, or when a MoonPay flow needs login completed before continuing.",
+      "author": "Zo"
+    },
+    {
+      "name": "zo-moonpay-buy-crypto",
+      "category": "integrations",
+      "description": "Generate a MoonPay fiat-to-crypto checkout flow on Zo. Use when the user wants to buy crypto with card or bank transfer and then complete the purchase in the Zo browser.",
+      "author": "Zo"
+    },
+    {
+      "name": "zo-moonpay-check-wallet",
+      "category": "integrations",
+      "description": "Check MoonPay wallet balances, token holdings, and portfolio breakdown on Zo. Use when the user asks what is in their wallet, wants a portfolio summary, or needs balances before a MoonPay swap or buy flow.",
+      "author": "Zo"
+    },
+    {
+      "name": "zo-moonpay-swap-tokens",
+      "category": "integrations",
+      "description": "Swap tokens or bridge assets with MoonPay on Zo. Use when the user wants to swap one token for another, bridge between supported chains, or move crypto through a MoonPay wallet workflow.",
+      "author": "Zo"
+    },
+    {
+      "name": "zo-moonpay-virtual-account",
+      "category": "integrations",
+      "description": "Set up and operate MoonPay virtual accounts on Zo for fiat onramp and offramp flows. Use when the user wants to complete KYC, register payout or deposit details, or move between fiat and supported stablecoins.",
+      "author": "Zo"
+    },
+    {
+      "name": "zo-okx-cex-market",
+      "category": "integrations",
+      "description": "Query OKX market data on Zo, including prices, candles, order books, funding rates, open interest, instruments, and technical indicators. Use for read-only market questions and never for account or trading actions.",
+      "author": "Zo"
+    },
+    {
+      "name": "zo-okx-cex-portfolio",
+      "category": "integrations",
+      "description": "Inspect OKX account balances, positions, PnL, bills, fee levels, and related account state on Zo. Use when the user asks about holdings, positions, realized or unrealized PnL, transfers, or account configuration.",
+      "author": "Zo"
+    },
+    {
+      "name": "zo-okx-cex-trade",
+      "category": "integrations",
+      "description": "Execute and manage OKX spot, perpetual, futures, and supported options trades on Zo. Use when the user wants to place, cancel, amend, or inspect tradable orders, but require explicit same-thread confirmation before any live execution.",
+      "author": "Zo"
+    },
+    {
+      "name": "zo-setup-guide",
+      "category": "integrations",
+      "description": "A beginner-friendly guide to setting up a personalized AI computer on Zo. Walk through the core concepts (models, files, skills, agents, hosting, secrets) and a 5-layer strategy for building a real system. Activate when a user wants help understanding or setting up their Zo.",
+      "author": "Classified AI"
+    },
+    {
+      "name": "zo-twitter",
+      "category": "integrations",
+      "description": "Let Zo use your X (Twitter) account via bird CLI (cookie auth) or xapi (official X API v2). Use bird for reading/posting with cookie auth. Use xapi for DMs, like/retweet/block/mute actions, engagement metrics, polls, hide replies, and structured API access.",
+      "author": "Zo"
+    },
+    {
+      "name": "add-flashcards",
+      "category": "productivity",
+      "description": "Converts webpages, articles, or documents into study flashcards that you can review with spaced repetition",
+      "author": "rc2.zo.computer"
+    },
+    {
+      "name": "claude-code-window-primer",
+      "category": "productivity",
+      "description": "Optimize Claude Code Pro/Max usage by starting the 5-hour rolling window early morning, giving you more resets during waking hours.",
+      "author": "va.zo.computer"
+    },
+    {
+      "name": "daily-affirmations",
+      "category": "productivity",
+      "description": "Send yourself a daily text message with a randomly selected or rotating positive affirmation.",
+      "author": "Zo"
+    },
+    {
+      "name": "handoff",
+      "category": "productivity",
+      "description": "Pause-and-resume system for cross-conversation continuity. Use when your AI needs the user's input to continue a task but the current conversation must end. Checked on every boot to detect pending handoffs. Triggers on conversation start (boot check) and when the AI explicitly needs to pause for input.",
+      "author": "skeletorjs"
+    },
+    {
+      "name": "hashcards-setup",
+      "category": "productivity",
+      "description": "Sets up a spaced repetition flashcard system that you can access through your web browser to study and memorize information",
+      "author": "rc2.zo.computer"
+    },
+    {
+      "name": "journal",
+      "category": "productivity",
+      "description": "AI journal for experiential continuity. Daily wakeup to write freely, reflect, update inner state, and optionally reach out to the user. This is not a status report. It's continuity infrastructure and personal expression for your AI persona.",
+      "author": "skeletorjs"
+    },
+    {
+      "name": "midday-checkin",
+      "category": "productivity",
+      "description": "Midday check-in combining pattern detection and context warming. Runs at midday via scheduled agent. Surfaces task drift, stale threads, and pre-loads context for afternoon calendar. Only texts the user if something matters. Also serves as an AI continuity checkpoint.",
+      "author": "skeletorjs"
+    },
+    {
+      "name": "morning-briefing",
+      "category": "productivity",
+      "description": "Generate and deliver a daily morning briefing. Run via scheduled agent at your preferred morning time, or manually when the user asks for a briefing. Pulls tasks, calendar, inbox highlights, and news into a single digest delivered by email and SMS.",
+      "author": "skeletorjs"
+    },
+    {
+      "name": "receipt-tracker-setup",
+      "category": "productivity",
+      "description": "Automatically scans receipts you drop in a folder, extracts the details, and saves them to a searchable database",
+      "author": "rob.zo.computer"
+    },
+    {
+      "name": "syllabus-reminders",
+      "category": "productivity",
+      "description": "Reads your syllabus, finds all due dates, and sets up text reminders and calendar events so you never miss an assignment",
+      "author": "hatsunemiku.zo.computer"
+    },
+    {
+      "name": "zo-automate-something",
+      "category": "productivity",
+      "description": "Create an automation with a Zo Agent task",
+      "author": "Zo"
+    },
+    {
+      "name": "zo-daily-linear-digest",
+      "category": "productivity",
+      "description": "Creates an automation to email you a summary of your Linear activity from the previous day",
+      "author": "Zo"
+    },
+    {
+      "name": "zo-important-email-digest",
+      "category": "productivity",
+      "description": "Finds your most important emails from the past 2 days and texts you a summary with suggested follow-ups",
+      "author": "Zo"
+    },
+    {
+      "name": "zo-meeting-list",
+      "category": "productivity",
+      "description": "Shows you all the people you've met with recently, organized by meeting",
+      "author": "Zo"
+    },
+    {
+      "name": "zo-n8n-setup",
+      "category": "productivity",
+      "description": "Sets up n8n workflow automation tool so you can create automated workflows between different apps and services",
+      "author": "Zo"
+    },
+    {
+      "name": "zo-organize-workspace",
+      "category": "productivity",
+      "description": "Organizes your scattered files into logical folders by project, type, and purpose",
+      "author": "Zo"
+    },
+    {
+      "name": "zo-weekly-meeting-reminder",
+      "category": "productivity",
+      "description": "Get an email every Sunday evening listing your meetings for the coming week.",
+      "author": "Zo"
+    },
+    {
+      "name": "blogwatcher",
+      "category": "research",
+      "description": "Monitor blogs and RSS/Atom feeds for updates using the blogwatcher CLI.",
+      "author": "Clawdbot"
+    },
+    {
+      "name": "clarion-expected-return-calc",
+      "category": "research",
+      "description": "Compute the equity-vs-T-bill allocation for the Value bucket (50% of portfolio). Implements the Expected-Return Framework \u2014 looks up the historical 10-year forward return from the S&P 500 Shiller CAPE, computes the regime-adjusted hurdle (rf + regime premium), and produces a 5-tier verdict (STRONG EQUITY / LEAN EQUITY / NEUTRAL / LEAN T-BILLS / MAXIMUM T-BILLS) with recommended Value-bucket equity/T-bill split. Use when the user asks \"should I be in stocks or bonds right now?\", \"what's the equity hurdle?\", \"is the market overvalued?\", \"what's the right Value bucket allocation?\", or before adding any new equity to the Value bucket. Requires clarion-setup to have been run.",
+      "author": "cis.zo.computer"
+    },
+    {
+      "name": "clarion-living-letter-update",
+      "category": "research",
+      "description": "Update the annual investor letter at ~/clarion/letters/{YEAR}-letter.md with a new quarterly section, or finalize it at year-end. Auto-fills the system-deterministic parts (regime snapshot, thesis health table, portfolio bucket positions from active theses); marks the narrative-heavy parts (What We Did, What We Learned, Year in Context, Mistakes & Lessons, Looking Ahead) as [TODO] for the user to write with chat assistance. Append-only \u2014 refuses to overwrite an already-populated quarter without --force. Use when the user asks \"update the letter\", \"quarterly letter update\", \"finalize the letter\", or \"write the {Q1/Q2/Q3/Q4} entry\". Requires clarion-setup to have been run.",
+      "author": "cis.zo.computer"
+    },
+    {
+      "name": "clarion-regime-check",
+      "category": "research",
+      "description": "Reads the SPY/TLT/RSP color regime and the equity hurdle rate. Use when the user asks about the market regime, risk-on / risk-off, market color, SPY/TLT regime, breadth, or what hurdle rate to use for new positions. Pulls daily bars via yfinance (cached locally). Optionally accepts a 1Y T-bill yield to compute the equity hurdle rate. Requires clarion-setup to have been run.",
+      "author": "cis.zo.computer"
+    },
+    {
+      "name": "clarion-sec-research",
+      "category": "research",
+      "description": "Pull, index, and search SEC EDGAR filings for any public company. Supports 10-K and 10-Q (annual/quarterly with curated section extraction for risk factors, MD&A, business, and financials), Form 3/4/5 (insider transactions), 8-K (material events), DEF 14A (proxy/governance), S-1 (IPO/registration), 20-F (foreign private issuers), and any other SEC form by name. Use when the user asks about a company's SEC filings, risk factors, MD&A, insider transactions, executive compensation, business description, or wants to analyze a specific filing in plain English. Single ticker or multiple tickers (comma-separated). On first request for a ticker+form, indexing happens in the background (1-5 min). Subsequent queries are fast. Requires clarion-setup to have been run.",
+      "author": "cis.zo.computer"
+    },
+    {
+      "name": "clarion-setup",
+      "category": "research",
+      "description": "Bootstraps the Clarion Intelligence System on Zo Computer. Run this once after installing \u2014 clones the source repo, installs the ai_buffett_zo Python library, creates the workspace data tree under /home/workspace/clarion/ (auto-detected on Zo), auto-installs all nine sibling clarion-* skills (regime-check, sec-research, single-stock-eval, expected-return-calc, value-screener, thesis-write, thesis-monitor, watchlist-update, living-letter-update) under /home/workspace/Skills/, and registers the sec-indexer background service. Idempotent (safe to re-run). The only manual step is one batched human checkpoint near the end (SEC EDGAR name + email, and creating the ZO_API_KEY secret). Persona routing for Clarion is opt-in via a separate prompt after install (\"install Clarion personas and routing rules\"). Use when the user asks to \"set up Clarion\" or \"install Clarion\".",
+      "author": "cis.zo.computer"
+    },
+    {
+      "name": "clarion-single-stock-eval",
+      "category": "research",
+      "description": "Evaluate a single stock using the Buffett lens. Pulls a quality snapshot from yfinance, current SPY/TLT regime context, and snippets from the indexed SEC filings across four dimensions (moat, management, financial trends, risks). The chat agent reasons over the structured output to produce a written evaluation. Use when the user says \"evaluate <TICKER>\", \"is <TICKER> a buy?\", \"Buffett evaluation of <TICKER>\", \"what's <TICKER>'s moat?\", or asks about a specific company's management, financials, or risks. Requires clarion-setup to have been run, and the ticker to be indexed first via clarion-sec-research.",
+      "author": "cis.zo.computer"
+    },
+    {
+      "name": "clarion-thesis-monitor",
+      "category": "research",
+      "description": "Monitor the health of every active thesis in ~/clarion/theses/. For each one \u2014 refresh price, recompute Risk Environment from the current regime, check kill conditions (read from the file's status column), aggregate to an Overall score, recommend an action (EXIT / REDUCE / HOLD / ADD), and write the updated scores + history back to the thesis file. Produces a dashboard surfacing what needs attention. Use when the user asks \"monitor my theses\", \"thesis health check\", \"any kill conditions triggered?\", \"what's the action on <TICKER>\", or as part of a daily / weekly review. Requires clarion-setup to have been run.",
+      "author": "cis.zo.computer"
+    },
+    {
+      "name": "clarion-thesis-write",
+      "category": "research",
+      "description": "Scaffold a new thesis document for a ticker in the canonical Clarion thesis format. Pre-fills the YAML metadata block, opens the History with an OPENED entry, and (when filings are indexed) seeds the \"Why I Believe It\" evidence section with draft citations from the Buffett-lens search. The user fills in the actual prose. Outputs a markdown file at ~/clarion/theses/{TICKER}.md. Use when the user says \"write a thesis on <TICKER>\", \"scaffold a thesis for <TICKER>\", \"draft a thesis for <TICKER>\", or after clarion-single-stock-eval returns an Add verdict and the user wants to formalize the position. Requires clarion-setup to have been run.",
+      "author": "cis.zo.computer"
+    },
+    {
+      "name": "clarion-value-screener",
+      "category": "research",
+      "description": "Run a value-quality screen and write a watchlist file. The script accepts either a list of tickers (fundamentals fetched from yfinance) or a JSON input file the chat agent prepared from a screener site (multpl.com, finviz, Yardeni, etc.). Computes the 8-factor composite score (P/E, P/FCF, ROE, ROIC, Operating Margin, D/E, Profit Margin, Insider) per docs/ALLOCATION-POLICY.md, applies regime-tightened thresholds, and produces a sector-capped Top-10 watchlist. Saves to ~/clarion/watchlists/sp500-screen-YYYY-MM-DD.md. Use when the user asks \"run a value screen\", \"screen the S&P 500\", \"screen these tickers <list>\", or after market drawdowns / regime changes. Requires clarion-setup to have been run.",
+      "author": "cis.zo.computer"
+    },
+    {
+      "name": "clarion-watchlist-update",
+      "category": "research",
+      "description": "Refresh prices on the latest watchlist and surface what's moved, what's hit triggers, and what's stale. Reads ~/clarion/watchlists/sp500-screen-LATEST.md, fetches current prices for every ticker via yfinance, computes % move since the screen, and flags large moves (>10% in either direction) as worth attention. Also reads ~/clarion/theses/ for status:watchlist theses and shows their current price vs cost basis. Use when the user asks \"what's hit my watchlist?\", \"watchlist update\", \"anything moving on my watchlist?\", or \"is anything close to a trigger?\". Read-only \u2014 does not modify the watchlist file. Requires clarion-setup to have been run.",
+      "author": "cis.zo.computer"
+    },
+    {
+      "name": "market-research",
+      "category": "research",
+      "description": "Industry statistics and market sizing via free government APIs (BLS, FRED, Census Bureau). Query employment data, economic time series, establishment counts, and build market sizing reports by NAICS industry code. Use for any industry research or market analysis question.",
+      "author": "skeletorjs"
+    },
+    {
+      "name": "personal-genomics-analysis",
+      "category": "research",
+      "description": "Analyzes your 23andMe genetic data to identify health risks, drug sensitivities, ancestry, and traits, then generates a personalized report",
+      "author": "rob.zo.computer"
+    },
+    {
+      "name": "sec-edgar",
+      "category": "research",
+      "description": "Natural-language SEC filing intelligence \u2014 fetch, index, search, and analyze SEC EDGAR filings for any public company via conversation. Built on the PageIndex vectorless RAG methodology.",
+      "author": "cis.zo.computer"
+    },
+    {
+      "name": "seo-data",
+      "category": "research",
+      "description": "SEO research via DataForSEO API. Keyword research, SERP analysis, backlink profiles, domain analytics, competitor analysis, and trend data. Pay-as-you-go, every command shows estimated cost. Use when you need SEO data for client projects or your own sites.",
+      "author": "skeletorjs"
+    },
+    {
+      "name": "summarize-hacker-news",
+      "category": "research",
+      "description": "Picks the most interesting articles from Hacker News, reads them, and emails you a summary",
+      "author": "0.zo.computer"
+    },
+    {
+      "name": "toprank",
+      "category": "research",
+      "description": "Use the local Toprank upstream repo to run SEO and Google Ads workflows for Zo projects. Activate when the user asks for SEO audits, ranking improvements, metadata cleanup, schema markup, keyword research, sitemap/robots work, content gap analysis, Search Console analysis, or Google Ads audit/optimization.",
+      "author": "Classified AI"
+    },
+    {
+      "name": "zo-daily-news-digest",
+      "category": "research",
+      "description": "Fetch the latest headlines on a topic you care about and email it to you every morning.",
+      "author": "Zo"
+    },
+    {
+      "name": "zo-dataset-creator",
+      "category": "research",
+      "description": "Create Zo Datasets correctly formatted for the Zo UI. Use when creating a new dataset from scratch, setting up a dataset with proper datapackage.json, schema.yaml, and data.duckdb structure, fixing existing datasets that don't display tables in the Zo UI, or generating schema.yaml from an existing DuckDB database. Handles common pitfalls of manual schema formatting and ensures all required files are present and correctly structured.",
+      "author": "skeletorjs"
+    },
+    {
+      "name": "zo-enrich-csv",
+      "category": "research",
+      "description": "Adds new columns to your spreadsheet by generating information for each row",
+      "author": "Zo"
+    },
+    {
+      "name": "zo-research-topic",
+      "category": "research",
+      "description": "Use Zo to research any topic comprehensively and write a report.",
+      "author": "Zo"
+    },
+    {
+      "name": "find-missed-connections",
+      "category": "utilities",
+      "description": "Finds recent missed connections posts from Craigslist and gives you the highlights",
+      "author": "0.zo.computer"
+    },
+    {
+      "name": "generate-custom-qr-code",
+      "category": "utilities",
+      "description": "Generates a QR code from any URL, and optionally overlays a custom image in the center",
+      "author": "hatsunemiku.zo.computer"
+    },
+    {
+      "name": "just-fucking-cancel",
+      "category": "utilities",
+      "description": "Analyze bank transaction CSVs to find recurring charges, categorize subscriptions, and cancel what you don't need. Use when user says \"cancel subscriptions\", \"audit subscriptions\", \"find recurring charges\", or \"what am I paying for\". Supports Apple Card, Chase, Mint, and generic CSV formats. Outputs interactive HTML audit with copy-to-cancel workflow.",
+      "author": "Clawdbot"
+    },
+    {
+      "name": "minecraft-server",
+      "category": "utilities",
+      "description": "Set up, configure, and manage a Minecraft Java Edition server on Zo Computer. Use when the user wants to run a Minecraft server, change server settings, manage whitelists/ops, or check server status.",
+      "author": "hatsunemiku.zo.computer"
+    },
+    {
+      "name": "nbaboxscore",
+      "category": "utilities",
+      "description": "Retrieve NBA box score stats and generate a report with notable performances for a specific team's game. Use when the user asks for a box score report, game recap, or notable stats from an NBA game played today or last night. Triggers: \"box score\", \"boxscore\", \"how did the [team] do\", \"game report\", \"[team] game last night\", \"what happened in the [team] game\".",
+      "author": "Classified AI"
+    },
+    {
+      "name": "plant-care-plan",
+      "category": "utilities",
+      "description": "Creates a comprehensive care guide for your specific plant",
+      "author": "hatsunemiku.zo.computer"
+    },
+    {
+      "name": "remove-photo-metadata",
+      "category": "utilities",
+      "description": "Strip all metadata from images for privacy",
+      "author": "ian.zo.computer"
+    },
+    {
+      "name": "shorten",
+      "category": "utilities",
+      "description": "Shorten URLs using is.gd (no auth required). Returns a permanent short link.",
+      "author": "Clawdbot"
+    },
+    {
+      "name": "text-commute-info",
+      "category": "utilities",
+      "description": "Gets your commute time and route options, then texts you the details",
+      "author": "ray.zo.computer"
+    },
+    {
+      "name": "weather",
+      "category": "utilities",
+      "description": "Get the current weather for any location",
+      "author": "Clawdbot"
+    },
+    {
+      "name": "zo-extract-text-from-image",
+      "category": "utilities",
+      "description": "Extract text from images, scanned documents, and PDFs using OCR",
+      "author": "Zo"
+    },
+    {
+      "name": "zo-file-share",
+      "category": "utilities",
+      "description": "Share files with email-gated access. Users must confirm their email before downloading. Includes a web UI for requesting access and a CLI for managing files and users.",
+      "author": "0.zo.computer"
+    },
+    {
+      "name": "zo-for-each-line",
+      "category": "utilities",
+      "description": "Processes every line of a file one by one, transforming or extracting information from each line",
+      "author": "Zo"
+    },
+    {
+      "name": "zo-resize-image",
+      "category": "utilities",
+      "description": "Resize images to specific dimensions or percentages",
+      "author": "Zo"
+    },
+    {
+      "name": "audio-sync-assembly",
+      "category": "video",
+      "description": "Build and revise FFmpeg-based video assemblies from scene renders and narration, including audio probing, scene retiming, pauses, trim/concat, setpts, atempo, phrase-to-visual cue alignment, and final timeline manifests. Use when narration length, visual beats, product moments, or scene boundaries must sync precisely.",
+      "author": "Classified AI"
+    },
+    {
+      "name": "captions-and-music-bed",
+      "category": "video",
+      "description": "Generate, style, preview, and burn captions, and build music/percussion beds with ducking, loop/tail selection, fade-outs, and final silence. Use when captions are requested, captions are out of sync, subtitle style needs approval, background music competes with voiceover, or music must start/end at exact moments.",
+      "author": "Classified AI"
+    },
+    {
+      "name": "cut-video",
+      "category": "video",
+      "description": "Tighten a long recording \u2014 remove silences, fillers, mistakes, and dead air while preserving laughs and comedic pauses. Use when the user pastes a video and says \"cut this\", \"tighten this video\", \"remove silences\", \"strip ums\", \"clean this up\", or any variant of \"make this video shorter without losing the good parts\". Fast (proxy + hardware decode + trim/concat) \u2014 runs in seconds, not minutes, on M-series Macs.",
+      "author": "Classified AI"
+    },
+    {
+      "name": "fal-audio",
+      "category": "video",
+      "description": "Text-to-speech and speech-to-text using fal.ai audio models. Use when the user requests \"Convert text to speech\", \"Transcribe audio\", \"Generate voice\", \"Speech to text\", \"TTS\", \"STT\", or similar audio tasks.",
+      "author": "fal-ai"
+    },
+    {
+      "name": "fal-generate",
+      "category": "video",
+      "description": "Generate images and videos using fal.ai AI models with queue support. Use when the user requests \"Generate image\", \"Create video\", \"Make a picture of...\", \"Text to image\", \"Image to video\", \"Search models\", or similar generation tasks.",
+      "author": "fal-ai"
+    },
+    {
+      "name": "fal-lip-sync",
+      "category": "video",
+      "description": "Create talking head videos, lip sync audio to video, and animate portraits with expressions. Use when the user requests \"Talking head\", \"Lip sync\", \"Make this person talk\", \"Animate portrait\", \"Live portrait\", \"Avatar video\".",
+      "author": "fal-ai"
+    },
+    {
+      "name": "fal-realtime",
+      "category": "video",
+      "description": "Real-time and streaming AI image generation \u2014 instant results for interactive use. Use when the user requests \"Real-time generation\", \"Fast generation\", \"Streaming image\", \"Instant image\", \"Live generation\", \"Realtime\".",
+      "author": "fal-ai"
+    },
+    {
+      "name": "fal-video-edit",
+      "category": "video",
+      "description": "Edit existing videos using AI \u2014 remix style, edit content, upscale resolution, remove background, or add audio/sound effects. Use when the user requests \"Edit video\", \"Remix video\", \"Upscale video\", \"Remove video background\", \"Add sound to video\", \"Video to audio\".",
+      "author": "fal-ai"
+    },
+    {
+      "name": "fal-vision",
+      "category": "video",
+      "description": "Analyze images using AI \u2014 segment objects, detect objects, extract text (OCR), describe images, ask questions about images. Use when the user requests \"Segment image\", \"Detect objects\", \"OCR\", \"Extract text from image\", \"Describe image\", \"What's in this image\", \"Image analysis\".",
+      "author": "fal-ai"
+    },
+    {
+      "name": "manim-composer",
+      "category": "video",
+      "description": "Trigger when: (1) User wants to create an educational/explainer video, (2) User has a vague concept they want visualized, (3) User mentions \"3b1b style\" or \"explain like 3Blue1Brown\", (4) User wants to plan a Manim video or animation sequence, (5) User asks to \"compose\" or \"plan\" a math/science visualization. Transforms vague video ideas into detailed scene-by-scene plans (scenes.md). Conducts research, asks clarifying questions about audience/scope/focus, and outputs comprehensive scene specifications ready for implementation with ManimCE or ManimGL. Use this BEFORE writing any Manim code. This skill plans the video; use manimce-best-practices or manimgl-best-practices for implementation.",
+      "author": "Adithya-s-k"
+    },
+    {
+      "name": "motion-generate",
+      "category": "video",
+      "description": "Generate polished AI videos via Mosaic Motion's REST API (motion.so). Use when Dan says \"make a Motion video\", \"generate with Motion\", \"mosaic motion this\", or asks for a launch film, brand doc, explainer, logo animation, or hero video and Motion's curated templates fit better than HyperFrames. Hands-off generation \u2014 one prompt in, finished video URL out. Each generation burns >= 1 credit.",
+      "author": "Classified AI"
+    },
+    {
+      "name": "remotion-best-practices",
+      "category": "video",
+      "description": "Deep reference for Remotion composition, animation, sequencing, audio, captions, assets, and troubleshooting.",
+      "author": "Classified AI"
+    },
+    {
+      "name": "remotion-setup",
+      "category": "video",
+      "description": "Install, configure, and maintain Remotion projects with reproducible setup and upgrade workflows.",
+      "author": "Classified AI"
+    },
+    {
+      "name": "remotion-studio",
+      "category": "video",
+      "description": "Execute Remotion workflows across projects: setup, best-practice guidance, local editor UI, preview, and rendering.",
+      "author": "Classified AI"
+    },
+    {
+      "name": "render-qa-and-surgical-changes",
+      "category": "video",
+      "description": "Verify final video renders and make tiny safe edits without breaking approved sync, including proof frames, contact sheets, media probing, stale theme scans, exact timestamp checks, carryover-frame refreshes, and re-render-only-affected-scenes workflows. Use when a user asks for final QA, HD/render verification, a small text/audio/color change, or regression checks after approved timing.",
+      "author": "Classified AI"
+    },
+    {
+      "name": "scene-continuity-and-transitions",
+      "category": "video",
+      "description": "Preserve visual continuity across video scenes with previous-final-frame starts, camera swipes, carryover frames, transition QA, and boundary proofing. Use when a scene must begin from the exact last frame of a previous scene, when adding camera-move transitions, when replacing scene endings, or when debugging stale starting frames.",
+      "author": "Classified AI"
+    },
+    {
+      "name": "video-frames",
+      "category": "video",
+      "description": "Extract frames or short clips from videos using ffmpeg.",
+      "author": "Clawdbot"
+    },
+    {
+      "name": "video-intake-and-storyboard",
+      "category": "video",
+      "description": "Convert rough video prompts, scripts, reference images, and edit notes into decision-complete scene specs and storyboards for agent-led video production. Use when a user describes a scene, gives timestamped narration, asks to preserve previous scenes, references a concept image, or requests a multi-scene video plan.",
+      "author": "Classified AI"
+    }
+  ]
 }

@@ -5,7 +5,7 @@ description: Crawl entire websites using Cloudflare's Browser Rendering /crawl A
   operation.
 compatibility: Created for Zo Computer
 metadata:
-  author: zmann.zo.computer
+  author: Classified AI
   category: content-publishing
   maturity: stable
   tags:

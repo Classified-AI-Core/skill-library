@@ -19,7 +19,7 @@ metadata:
     - cloudflare-crawl
     - fal-lip-sync
     - fal-upscale
-  author: zmann.zo.computer
+  author: Classified AI
 ---
 
 # Obsidian Flavored Markdown Skill

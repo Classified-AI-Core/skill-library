@@ -19,7 +19,7 @@ metadata:
     - fal-generate
     - memelord
     - defuddle
-  author: zmann.zo.computer
+  author: Classified AI
 ---
 
 # Hook Generator

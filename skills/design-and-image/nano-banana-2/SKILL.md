@@ -4,7 +4,7 @@ description: Generates AI images using the nano-banana CLI (Gemini 3.1 Flash def
 metadata:
   category: content-publishing
   maturity: stable
-  author: zmann.zo.computer
+  author: Classified AI
   tags:
     - image-generation
     - ai-art

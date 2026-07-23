@@ -22,7 +22,7 @@ metadata:
     - fal-video-edit
     - fal-upscale
     - fal-generate
-  author: zmann.zo.computer
+  author: Classified AI
 ---
 
 # Gemini Carousel

@@ -4,7 +4,7 @@ description: AI-powered meme generation, meme editing, and meme video generation
   user asks to generate a meme, edit a meme, create a video meme, or anything meme-related.
 compatibility: Created for Zo Computer
 metadata:
-  author: zmann.zo.computer
+  author: Classified AI
   api_url: https://www.memelord.com/docs
   homepage: https://memelord.com
   category: content-publishing

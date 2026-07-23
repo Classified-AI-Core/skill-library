@@ -21,7 +21,7 @@ metadata:
     - profile-optimizer
     - cut-video
     - defuddle
-  author: zmann.zo.computer
+  author: Classified AI
 ---
 
 # Render QA And Surgical Changes

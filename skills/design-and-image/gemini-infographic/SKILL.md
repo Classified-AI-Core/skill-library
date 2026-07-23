@@ -20,7 +20,7 @@ metadata:
     - fal-upscale
     - fal-lip-sync
     - fal-realtime
-  author: zmann.zo.computer
+  author: Classified AI
 ---
 
 # Gemini Infographic

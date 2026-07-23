@@ -23,7 +23,7 @@ metadata:
     - cloudflare-crawl
     - fal-generate
     - defuddle
-  author: zmann.zo.computer
+  author: Classified AI
 ---
 
 # Reels Scripting

@@ -20,7 +20,7 @@ metadata:
     - cut-video
     - profile-optimizer
     - reels-scripting
-  author: zmann.zo.computer
+  author: Classified AI
 ---
 
 # Video Intake And Storyboard

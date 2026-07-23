@@ -22,7 +22,7 @@ metadata:
     - scene-continuity-and-transitions
     - cut-video
     - reels-scripting
-  author: zmann.zo.computer
+  author: Classified AI
 ---
 
 # Close Spec

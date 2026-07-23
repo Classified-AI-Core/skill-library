@@ -3,7 +3,7 @@ name: zo-setup-guide
 description: A beginner-friendly guide to setting up a personalized AI computer on Zo. Walk through the core concepts (models, files, skills, agents, hosting, secrets) and a 5-layer strategy for building a real system. Activate when a user wants help understanding or setting up their Zo.
 compatibility: Created for Zo Computer
 metadata:
-  author: zmann.zo.computer
+  author: Classified AI
   version: 1
   category: infrastructure
   maturity: stable

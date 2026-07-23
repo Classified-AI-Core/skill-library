@@ -21,7 +21,7 @@ metadata:
     - fal-generate
     - defuddle
     - nbaboxscore
-  author: zmann.zo.computer
+  author: Classified AI
 ---
 
 # Graphic Designer

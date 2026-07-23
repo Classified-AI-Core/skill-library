@@ -19,7 +19,7 @@ metadata:
     - verticals
     - defuddle
     - fal-video-edit
-  author: zmann.zo.computer
+  author: Classified AI
 ---
 
 # LinkedIn Pinned Comment + Image Prompt Skill

@@ -20,7 +20,7 @@ metadata:
     - graphic-designer
     - premortem
     - analytics-dashboard
-  author: zmann.zo.computer
+  author: Classified AI
 ---
 
 # Write Skills

@@ -22,7 +22,7 @@ metadata:
     - premortem
     - newsletter-voice
     - voice-builder
-  author: zmann.zo.computer
+  author: Classified AI
 ---
 
 # Eval Skills

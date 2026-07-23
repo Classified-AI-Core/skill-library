@@ -19,7 +19,7 @@ metadata:
     - premortem
     - graphic-designer
     - humanizer
-  author: zmann.zo.computer
+  author: Classified AI
 ---
 
 # Clean Refactoring

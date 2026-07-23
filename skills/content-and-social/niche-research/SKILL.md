@@ -23,7 +23,7 @@ metadata:
     - fal-image-edit
     - fal-upscale
     - fal-lip-sync
-  author: zmann.zo.computer
+  author: Classified AI
 ---
 
 # Niche Research

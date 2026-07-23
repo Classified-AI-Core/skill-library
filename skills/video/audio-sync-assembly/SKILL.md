@@ -20,7 +20,7 @@ metadata:
     - profile-optimizer
     - cut-video
     - voice-builder
-  author: zmann.zo.computer
+  author: Classified AI
 ---
 
 # Audio Sync Assembly

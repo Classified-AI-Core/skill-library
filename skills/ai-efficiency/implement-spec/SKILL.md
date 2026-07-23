@@ -18,7 +18,7 @@ metadata:
     - humanizer
     - premortem
     - cut-video
-  author: zmann.zo.computer
+  author: Classified AI
 ---
 
 # Implement Spec

@@ -5,7 +5,7 @@ description: Use the local Toprank upstream repo to run SEO and Google Ads workf
   work, content gap analysis, Search Console analysis, or Google Ads audit/optimization.
 compatibility: Created for Zo Computer
 metadata:
-  author: zmann.zo.computer
+  author: Classified AI
   category: research
   maturity: beta
   tags:

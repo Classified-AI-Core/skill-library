@@ -3,7 +3,7 @@ name: remotion-setup
 description: Install, configure, and maintain Remotion projects with reproducible setup and upgrade workflows.
 compatibility: Created for Zo Computer
 metadata:
-  author: zmann.zo.computer
+  author: Classified AI
   category: content-publishing
   maturity: stable
   tags:

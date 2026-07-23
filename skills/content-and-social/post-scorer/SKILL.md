@@ -22,7 +22,7 @@ metadata:
     - defuddle
     - fal-generate
     - cloudflare-crawl
-  author: zmann.zo.computer
+  author: Classified AI
 ---
 
 # Post Scorer

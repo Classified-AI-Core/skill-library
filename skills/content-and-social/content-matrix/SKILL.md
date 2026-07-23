@@ -21,7 +21,7 @@ metadata:
     - defuddle
     - fal-video-edit
     - fal-upscale
-  author: zmann.zo.computer
+  author: Classified AI
 ---
 
 # Content Matrix

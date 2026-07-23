@@ -21,7 +21,7 @@ metadata:
     - humanizer
     - reels-scripting
     - scrapling-official
-  author: zmann.zo.computer
+  author: Classified AI
 ---
 
 # Cut Video

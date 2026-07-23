@@ -20,7 +20,7 @@ metadata:
     - niche-research
     - premortem
     - voice-builder
-  author: zmann.zo.computer
+  author: Classified AI
 ---
 
 # Scene Continuity And Transitions

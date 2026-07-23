@@ -21,7 +21,7 @@ metadata:
     - fal-image-edit
     - fal-video-edit
     - verticals
-  author: zmann.zo.computer
+  author: Classified AI
 ---
 
 # Post Writer

@@ -16,7 +16,7 @@ metadata:
     - scene-continuity-and-transitions
     - cut-video
     - scrapling-official
-  author: zmann.zo.computer
+  author: Classified AI
 ---
 
 # Screenshot Critique

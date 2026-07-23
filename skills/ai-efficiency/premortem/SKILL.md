@@ -24,7 +24,7 @@ metadata:
     - niche-research
     - pinned-comment
     - humanizer
-  author: zmann.zo.computer
+  author: Classified AI
 ---
 
 # Premortem

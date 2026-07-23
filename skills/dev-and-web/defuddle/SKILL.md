@@ -19,7 +19,7 @@ metadata:
     - fal-generate
     - cloudflare-crawl
     - memelord
-  author: zmann.zo.computer
+  author: Classified AI
 ---
 
 # Defuddle

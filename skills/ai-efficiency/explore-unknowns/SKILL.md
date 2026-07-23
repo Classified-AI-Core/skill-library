@@ -24,7 +24,7 @@ metadata:
     - reels-scripting
     - cloudflare-crawl
     - classified-hub-spinup
-  author: zmann.zo.computer
+  author: Classified AI
 ---
 
 # Explore Unknowns

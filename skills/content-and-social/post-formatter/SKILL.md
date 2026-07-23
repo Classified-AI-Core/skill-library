@@ -21,7 +21,7 @@ metadata:
     - fal-image-edit
     - memelord
     - defuddle
-  author: zmann.zo.computer
+  author: Classified AI
 ---
 
 # Post Formatter

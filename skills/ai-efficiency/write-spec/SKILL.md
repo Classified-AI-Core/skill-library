@@ -26,7 +26,7 @@ metadata:
     - reels-scripting
     - cut-video
     - cloudflare-crawl
-  author: zmann.zo.computer
+  author: Classified AI
 ---
 
 # Write Spec

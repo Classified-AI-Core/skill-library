@@ -3,7 +3,7 @@ name: remotion-best-practices
 description: Deep reference for Remotion composition, animation, sequencing, audio, captions, assets, and troubleshooting.
 compatibility: Created for Zo Computer
 metadata:
-  author: zmann.zo.computer
+  author: Classified AI
   category: content-publishing
   maturity: stable
   tags:

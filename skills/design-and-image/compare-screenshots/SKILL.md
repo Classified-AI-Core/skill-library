@@ -20,7 +20,7 @@ metadata:
     - reels-scripting
     - scrapling-official
     - video-intake-and-storyboard
-  author: zmann.zo.computer
+  author: Classified AI
 ---
 
 # Compare Screenshots

@@ -7,7 +7,7 @@ description: >
   [team] game".
 compatibility: Created for Zo Computer
 metadata:
-  author: zmann.zo.computer
+  author: Classified AI
   category: productivity
   maturity: stable
   tags:
