@@ -1,6 +1,6 @@
 # Classified AI Skill Library
 
-A curated, sanitized library of 207 agent skills for [Zo Computer](https://zo.computer) and Claude-based agents, maintained by [Classified AI](https://www.classified.llc).
+A curated, sanitized library of 208 agent skills for [Zo Computer](https://zo.computer) and Claude-based agents, maintained by [Classified AI](https://www.classified.llc).
 
 Every skill is a self-contained folder with a `SKILL.md` (what it does, when to use it, how to run it) and optional `scripts/`, `references/`, and `assets/`. Drop a folder into your `Skills/` directory and your agent can use it.
 
@@ -10,7 +10,7 @@ Every skill is a self-contained folder with a `SKILL.md` (what it does, when to 
 |---|---|---|
 | `content-and-social` | 38 | Copywriting, captions, hooks, threads, voice tuning, repurposing |
 | `dev-and-web` | 34 | GitHub workflows, scraping, crawling, SEO, web tooling |
-| `research` | 21 | Briefings, monitoring, deep dives, fact-checking |
+| `research` | 22 | Briefings, monitoring, deep dives, fact-checking |
 | `ai-efficiency` | 18 | Specs, premortems, skill authoring, agent best practices |
 | `design-and-image` | 18 | Graphic generation, thumbnails, editing, upscaling, critique |
 | `video` | 18 | Cutting, storyboarding, captions, rendering, lip sync |

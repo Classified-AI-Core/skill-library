@@ -1,5 +1,5 @@
 {
-  "count": 207,
+  "count": 208,
   "skills": [
     {
       "name": "brainstorming",
@@ -1026,6 +1026,12 @@
       "category": "research",
       "description": "Use the local Toprank upstream repo to run SEO and Google Ads workflows for Zo projects. Activate when the user asks for SEO audits, ranking improvements, metadata cleanup, schema markup, keyword research, sitemap/robots work, content gap analysis, Search Console analysis, or Google Ads audit/optimization.",
       "author": "Classified AI"
+    },
+    {
+      "name": "xquik-x-research",
+      "category": "research",
+      "description": "Research X posts and audiences with Xquik's Apify X Tweet Scraper and X Follower Scraper. Use when validating X conversations, analyzing creators, comparing audiences, researching competitors, or collecting bounded X data.",
+      "author": "Xquik"
     },
     {
       "name": "zo-daily-news-digest",
