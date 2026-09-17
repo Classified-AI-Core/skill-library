@@ -1,6 +1,6 @@
 # Classified AI Skill Library
 
-A curated, sanitized library of 207 agent skills for [Zo Computer](https://zo.computer) and Claude-based agents, maintained by [Classified AI](https://www.classified.llc).
+A curated, sanitized library of 200+ agent skills for [Zo Computer](https://zo.computer) and Claude-based agents, maintained by [Classified AI](https://www.classified.llc).
 
 Every skill is a self-contained folder with a `SKILL.md` (what it does, when to use it, how to run it) and optional `scripts/`, `references/`, and `assets/`. Drop a folder into your `Skills/` directory and your agent can use it.
 
@@ -33,7 +33,7 @@ cp -r skill-library/skills/<category>/<skill-name> ~/.claude/skills/     # Claud
 
 ## Start here
 
-Do not install all 207. Install these three, use them for a week, then browse `manifest.json` for the thing you keep doing by hand.
+Do not install the whole library. Install these three, use them for a week, then browse `manifest.json` for the thing you keep doing by hand.
 
 - `ai-efficiency/premortem`: stress-test a plan before you build it.
 - `ai-efficiency/code-degunker`: strip AI-generated bloat out of a codebase.
