@@ -1,5 +1,5 @@
 {
- "count": 209,
+ "count": 210,
  "skills": [
   {
    "name": "brainstorming",
@@ -528,6 +528,12 @@
    "category": "design-and-image",
    "description": "Generate a branded YouTube thumbnail from a video title. Uses a reference photo of the creator, high-CTR thumbnail principles, and brand colours to produce a ready-to-generate image prompt for Gemini. Use this skill whenever the user says \"thumbnail\", \"youtube thumbnail\", \"build me a thumbnail\", or wants a video cover image before writing the script. The thumbnail-first workflow mirrors the graphic-first approach for LinkedIn: sells the video before anyone hears a word of the script.",
    "author": "Classified AI"
+  },
+  {
+   "name": "accessibility",
+   "category": "dev-and-web",
+   "description": "Audit and improve web accessibility following WCAG 2.2 guidelines. Use when asked to \"improve accessibility\", \"a11y audit\", \"WCAG compliance\", \"screen reader support\", \"keyboard navigation\", or \"make accessible\".",
+   "author": "Addy Osmani"
   },
   {
    "name": "cloudflare-crawl",
