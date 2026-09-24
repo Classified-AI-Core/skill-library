@@ -1,5 +1,5 @@
 {
- "count": 214,
+ "count": 215,
  "skills": [
   {
    "name": "brainstorming",
@@ -552,6 +552,12 @@
    "category": "dev-and-web",
    "description": "Fetch up-to-date, version-specific library documentation and code examples from Context7. Use this skill whenever the user asks about a specific programming library, framework, or API, or when writing code that depends on a library. Replaces stale training-data knowledge with live docs.",
    "author": "skeletorjs"
+  },
+  {
+   "name": "critique",
+   "category": "dev-and-web",
+   "description": "Structured design critique of a web page, component, or UI surface. Scores visual hierarchy, spacing, typography, cognitive load, and UX heuristics, flags anti-patterns, runs persona walkthroughs, and ends with a prioritized fix list. Use when asked to \"critique this design\", \"review this page\", \"design review\", or before showing a site, client hub, or dashboard to a client or stakeholder.",
+   "author": "Paul Bakaus (impeccable), adapted by Classified AI"
   },
   {
    "name": "defuddle",
