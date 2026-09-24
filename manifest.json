@@ -1,5 +1,5 @@
 {
- "count": 216,
+ "count": 213,
  "skills": [
   {
    "name": "brainstorming",
@@ -560,34 +560,16 @@
    "author": "skeletorjs"
   },
   {
-   "name": "critique",
-   "category": "dev-and-web",
-   "description": "Structured design critique of a web page, component, or UI surface. Scores visual hierarchy, spacing, typography, cognitive load, and UX heuristics, flags anti-patterns, runs persona walkthroughs, and ends with a prioritized fix list. Use when asked to \"critique this design\", \"review this page\", \"design review\", or before showing a site, client hub, or dashboard to a client or stakeholder.",
-   "author": "Paul Bakaus (impeccable), adapted by Classified AI"
-  },
-  {
    "name": "defuddle",
    "category": "dev-and-web",
    "description": "Extract clean markdown content from web pages using Defuddle CLI, removing clutter and navigation to save tokens. Use instead of WebFetch when the user provides a URL to read or analyze, for online documentation, articles, blog posts, or any standard web page. Do NOT use for URLs ending in .md \u2014 those are already markdown, use WebFetch directly.",
    "author": "Classified AI"
   },
   {
-   "name": "emil-design-eng",
-   "category": "dev-and-web",
-   "description": "This skill encodes Emil Kowalski's philosophy on UI polish, component design, animation decisions, and the invisible details that make software feel great.",
-   "author": "Emil Kowalski"
-  },
-  {
    "name": "exe-dev",
    "category": "dev-and-web",
    "description": "Manage exe.dev VMs - create, list, delete, restart, rename, copy VMs and manage sharing/access. Use when the user wants to spin up new VMs, manage existing ones, or configure HTTP proxy sharing on exe.dev.",
    "author": "davidj.zo.computer"
-  },
-  {
-   "name": "frontend-design",
-   "category": "dev-and-web",
-   "description": "Guidance for distinctive, intentional visual design when building new UI or reshaping an existing one. Helps with aesthetic direction, typography, and making choices that don't read as templated defaults.",
-   "author": "Anthropic"
   },
   {
    "name": "github",
