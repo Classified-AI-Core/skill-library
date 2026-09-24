@@ -1,5 +1,5 @@
 {
- "count": 208,
+ "count": 209,
  "skills": [
   {
    "name": "brainstorming",
@@ -432,6 +432,12 @@
    "category": "design-and-image",
    "description": "Compare screenshots to judge which image is less wrong, not to match a baseline. Use when a UI, game, document, render, chart, or generated asset needs objective visual telemetry, side-by-side inspection, crop/zoom review, or a fresh second opinion before accepting or rejecting a visual change.",
    "author": "Classified AI"
+  },
+  {
+   "name": "emil-design-eng",
+   "category": "design-and-image",
+   "description": "This skill encodes Emil Kowalski's philosophy on UI polish, component design, animation decisions, and the invisible details that make software feel great.",
+   "author": "Emil Kowalski"
   },
   {
    "name": "fal-image-edit",
