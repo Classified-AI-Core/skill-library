@@ -1,5 +1,5 @@
 {
- "count": 213,
+ "count": 214,
  "skills": [
   {
    "name": "brainstorming",
@@ -558,6 +558,12 @@
    "category": "dev-and-web",
    "description": "Extract clean markdown content from web pages using Defuddle CLI, removing clutter and navigation to save tokens. Use instead of WebFetch when the user provides a URL to read or analyze, for online documentation, articles, blog posts, or any standard web page. Do NOT use for URLs ending in .md \u2014 those are already markdown, use WebFetch directly.",
    "author": "Classified AI"
+  },
+  {
+   "name": "emil-design-eng",
+   "category": "dev-and-web",
+   "description": "This skill encodes Emil Kowalski's philosophy on UI polish, component design, animation decisions, and the invisible details that make software feel great.",
+   "author": "Emil Kowalski"
   },
   {
    "name": "exe-dev",
