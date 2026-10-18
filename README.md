@@ -12,8 +12,8 @@ Every skill is a self-contained folder with a `SKILL.md` (what it does, when to 
 | `dev-and-web` | 34 | GitHub workflows, scraping, crawling, SEO, web tooling |
 | `research` | 21 | Briefings, monitoring, deep dives, fact-checking |
 | `ai-efficiency` | 18 | Specs, premortems, skill authoring, agent best practices |
-| `design-and-image` | 18 | Graphic generation, thumbnails, editing, upscaling, critique |
-| `video` | 18 | Cutting, storyboarding, captions, rendering, lip sync |
+| `design-and-image` | 22 | Graphic generation, thumbnails, editing, upscaling, critique |
+| `video` | 19 | Cutting, storyboarding, captions, rendering, lip sync |
 | `integrations` | 17 | Third-party service connectors and setup guides |
 | `productivity` | 17 | Tasks, reminders, calendars, prioritization |
 | `utilities` | 14 | General-purpose helpers |

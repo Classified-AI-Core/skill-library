@@ -1,5 +1,5 @@
 {
- "count": 213,
+ "count": 218,
  "skills": [
   {
    "name": "brainstorming",
@@ -1278,6 +1278,36 @@
    "category": "video",
    "description": "Convert rough video prompts, scripts, reference images, and edit notes into decision-complete scene specs and storyboards for agent-led video production. Use when a user describes a scene, gives timestamped narration, asks to preserve previous scenes, references a concept image, or requests a multi-scene video plan.",
    "author": "Classified AI"
+  },
+  {
+   "name": "design-intel",
+   "category": "design-and-image",
+   "description": "Design system intelligence for Zo. Fetch brand DESIGN.md files from getdesign.md, clone any website's UI, blend two design systems into a hybrid, export CSS/Tailwind tokens, check fidelity of a built page, generate Claude Design-ready briefs, and run AI design critiques. Triggers on \"design:\", \"fetch design\", \"clone UI from\", \"design tokens\", \"fidelity check\", \"design critique\", or any UI build request when a DESIGN.md exists in the project.",
+   "author": "brent55.zo.computer"
+  },
+  {
+   "name": "image-prompt",
+   "category": "design-and-image",
+   "description": "Turn a casual sentence or a reference photo into a photorealistic image generation prompt for Higgsfield. The user supplies plain English or a file; this skill supplies all photographic vocabulary (light, lens, grade, texture, imperfection). Use when the user says \"image prompt:\", drops a photo and asks for something similar, asks for a prompt to generate a realistic image, or asks for a hero/background/portrait image for any project.",
+   "author": "brent55.zo.computer"
+  },
+  {
+   "name": "higgsfield-run",
+   "category": "design-and-image",
+   "description": "Run a prompt through the Higgsfield REST API and bring the result back into the workspace. Submits, polls, downloads, records the spend, and hands off to prompt-scoring. Use after video-prompt or image-prompt has written a prompt, when the user says \"generate it\", \"run that prompt\", \"make the image\", or asks to animate a still he already approved.",
+   "author": "brent55.zo.computer"
+  },
+  {
+   "name": "prompt-scoring",
+   "category": "design-and-image",
+   "description": "Score and learn from AI image and video generations. Asks the user for a 1-10 rating plus why after every generation, logs it, and feeds the accumulated lessons back into the next prompt build. Use when the user rates a generation (\"score: 8, faces drifted\"), after delivering any image or video prompt, or when he asks what has been working.",
+   "author": "brent55.zo.computer"
+  },
+  {
+   "name": "video-prompt",
+   "category": "video",
+   "description": "Turn a casual sentence or a reference video into a production-grade AI video generation prompt. The user supplies plain English or a file; this skill supplies all technical vocabulary (lighting, lens, grade, texture, imperfection, pacing) and writes the full prompt. Use when the user says \"video prompt:\", drops a video and asks for a similar one, asks for a prompt for an AI video, or wants to recreate a video style he saw.",
+   "author": "brent55.zo.computer"
   }
  ]
 }

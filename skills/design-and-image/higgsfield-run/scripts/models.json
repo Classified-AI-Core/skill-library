@@ -1,0 +1,112 @@
+{
+  "_comment": [
+    "Model registry for hf_run.py. Endpoints verified 2026-09-20 against the",
+    "per-model pages under https://docs.higgsfield.ai/docs/models/.",
+    "",
+    "Higgsfield's own llms.txt says the model catalog is discovered at",
+    "console.higgsfield.ai and that /docs/openapi.json is SUPPLEMENTARY, not",
+    "authoritative. That is not a formality: openapi.json lists Kling at",
+    "v2.5-turbo while the live model page documents v3.0-turbo, and it lists",
+    "soul at a path one segment shorter than the quickstart uses. So an entry",
+    "here is a cached answer, not a guarantee. `hf_run.py doctor` re-checks",
+    "credentials for free; a 404 on submit means the path moved and this file",
+    "needs an edit, not that the account lacks access.",
+    "",
+    "rate_unit: per_second bills duration, per_image bills variants.",
+    "verified: where the endpoint string came from."
+  ],
+  "default_image": "soul",
+  "default_video": "kling3-turbo-t2v",
+  "models": {
+    "soul": {
+      "kind": "image",
+      "endpoint": "https://api.higgsfield.ai/higgsfield-ai/soul/v2/standard",
+      "rate_usd": 0.0032,
+      "rate_unit": "per_image",
+      "params": [
+        "prompt"
+      ],
+      "verified": "docs quickstart 2026-09-20; openapi.json disagrees (/higgsfield-ai/soul/standard). If this 404s, try that.",
+      "notes": "Cheapest path to a still. This is the image-first workflow's workhorse."
+    },
+    "grok-image": {
+      "kind": "image",
+      "endpoint": "https://api.higgsfield.ai/xai/grok-imagine-image-2.0",
+      "rate_usd": 0.0032,
+      "rate_unit": "per_image",
+      "params": [
+        "prompt",
+        "resolution",
+        "aspect_ratio",
+        "quality",
+        "image_urls"
+      ],
+      "defaults": {
+        "resolution": "1k",
+        "aspect_ratio": "auto"
+      },
+      "verified": "docs/models/grok-image-2/generate-and-edit.md 2026-09-20",
+      "notes": "Generate and edit. Rate is the catalog image rate and is not separately confirmed for this model. Edit mode: pass --param image_urls='[\"<url from upload>\"]' (up to 10 refs). quality low|medium."
+    },
+    "kling3-turbo-t2v": {
+      "kind": "video",
+      "endpoint": "https://api.higgsfield.ai/kling-video/v3.0-turbo/text-to-video",
+      "rate_usd": 0.112,
+      "rate_unit": "per_second",
+      "params": [
+        "prompt",
+        "duration",
+        "resolution",
+        "aspect_ratio"
+      ],
+      "defaults": {
+        "duration": 5,
+        "resolution": "720p",
+        "aspect_ratio": "16:9"
+      },
+      "verified": "docs/models/kling-3/turbo-text-to-video.md 2026-09-20",
+      "notes": "Text to video. No start frame."
+    },
+    "kling3-turbo-i2v": {
+      "kind": "video",
+      "endpoint": "https://api.higgsfield.ai/kling-video/v3.0-turbo/image-to-video",
+      "rate_usd": 0.112,
+      "rate_unit": "per_second",
+      "params": [
+        "prompt",
+        "image_url",
+        "duration",
+        "resolution"
+      ],
+      "defaults": {
+        "duration": 5,
+        "resolution": "720p"
+      },
+      "start_frame_param": "image_url",
+      "verified": "docs/models/kling-3/turbo-image-to-video.md 2026-09-20",
+      "notes": "Start frame required. This is the image-first workflow's second half: generate a still, upload it, animate it."
+    },
+    "wan3-ref2v": {
+      "kind": "video",
+      "endpoint": "https://api.higgsfield.ai/alibaba/wan-3.0/reference-to-video",
+      "rate_usd": 0.2,
+      "rate_unit": "per_second",
+      "params": [
+        "prompt",
+        "file_url",
+        "link_url",
+        "duration",
+        "resolution",
+        "aspect_ratio"
+      ],
+      "defaults": {
+        "duration": 5,
+        "resolution": "1080p",
+        "aspect_ratio": "adaptive"
+      },
+      "start_frame_param": "file_url",
+      "verified": "docs/models/wan-3/reference-to-video.md 2026-09-20",
+      "notes": "Reference to video. Takes an uploaded file or a link."
+    }
+  }
+}
