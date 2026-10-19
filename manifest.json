@@ -1,5 +1,5 @@
 {
- "count": 218,
+ "count": 221,
  "skills": [
   {
    "name": "brainstorming",
@@ -1308,6 +1308,24 @@
    "category": "video",
    "description": "Turn a casual sentence or a reference video into a production-grade AI video generation prompt. The user supplies plain English or a file; this skill supplies all technical vocabulary (lighting, lens, grade, texture, imperfection, pacing) and writes the full prompt. Use when the user says \"video prompt:\", drops a video and asks for a similar one, asks for a prompt for an AI video, or wants to recreate a video style he saw.",
    "author": "brent55.zo.computer"
+  },
+  {
+   "name": "ledger-tasks-yylo",
+   "category": "productivity",
+   "description": "Retrieve any YYLO Ledger Record by ID, discover PDRs and artifacts, and manage tasks and dependencies. Use for unknown record types, universal get/search, task operations, and source-of-truth boundaries.",
+   "author": "yylo-dev (MIT)"
+  },
+  {
+   "name": "understand-project-yylo",
+   "category": "ai-efficiency",
+   "description": "Inspect the current product architecture, dependencies, and validation loops before planning or implementing a requested change.",
+   "author": "yylo-dev (MIT)"
+  },
+  {
+   "name": "wiki-yylo",
+   "category": "productivity",
+   "description": "Use YYLO Ledger wiki Records as durable project knowledge. Search before creating, classify information correctly, and make revision-safe Markdown updates without editing Ledger storage directly.",
+   "author": "yylo-dev (MIT)"
   }
  ]
 }
